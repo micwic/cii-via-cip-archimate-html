@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Containers</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Containers</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Artifact"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Artifact" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Running instances of Docker images. They encapsulate the application and its execution environment, providing isolated and reproducible runtime environments.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-5f6ee496f16c4d998d7325552e5f402a">
+																	<td><a href="../views/id-5f6ee496f16c4d998d7325552e5f402a.html" target="view" title="Docker Desktop"> Docker Desktop </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-a57639114c7a4be9a02a2966df372bd7">
+																	<td><a href="../views/id-a57639114c7a4be9a02a2966df372bd7.html" target="view" title="openLDAP Build &amp; Run &amp; Use"> openLDAP Build &amp; Run &amp; Use </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-9ec04b3904974ab894fa7c8b0b5cf817">
+																	<td><a href="../views/id-9ec04b3904974ab894fa7c8b0b5cf817.html" target="view" title="Neo4j Build &amp; Run &amp; Use"> Neo4j Build &amp; Run &amp; Use </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-3cbf5c3ab98c4c8c8555b3d004032968.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-114f330ee2bc44e282debf9d69799b56.html" target="element"> container/tool</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-42480d91e5624bf2a299e83eaa0ad543.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5f3caaaaa0934ffba81f613ee0a83c46.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b5897d720ad54aceaa72e895b964835b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html" target="element"> container/run</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-22faf9caabf446e4b725797d2bc68a22.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element"> startup</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-df80979590b945818f25039d2d57871b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element"> Environment Variables (volatile)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-76294c11e44a483fa34708e7b69b1637.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a8a1730d2394473ea6425d2eefad5c2b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+											<td><a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element"> /var/lib/neo4j/conf</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-1b17b92fcbb5498c849a824ccba19f2f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx</a></td>
+											<td><a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

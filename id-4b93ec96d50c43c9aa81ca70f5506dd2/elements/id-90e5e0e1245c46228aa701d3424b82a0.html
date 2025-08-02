@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IDIS Smart Meter</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IDIS Smart Meter</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Node"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Node" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">IDIS Package 3 compatible smart meter</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-7d5bab4a5b3c4d1785da09f5f1c76498">
+																	<td><a href="../views/id-7d5bab4a5b3c4d1785da09f5f1c76498.html" target="view" title="Smart Meter Device - IDIS CII via CIP"> Smart Meter Device - IDIS CII via CIP </a></td>
+																	<td><span class="i18n-viewpoint-technology" /></td>
+																</tr><tr id="used-in-views-id-d783ff3554564ead9d9fe16a22212e9d">
+																	<td><a href="../views/id-d783ff3554564ead9d9fe16a22212e9d.html" target="view" title="0.2 Architecture Vision"> 0.2 Architecture Vision </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-480eb16de6ff48538d8ab40624be6a0c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssignmentRelationship" /></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+											<td><a href="../elements/id-d834ca265a3d4a378c5dc3999e21a6c8.html" target="element"> Management Client</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e5cc4d19d36c4233a0b7d90d059aea3a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssignmentRelationship" /></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+											<td><a href="../elements/id-a2dcb6d8e7a84d7da4884ca80b1827ef.html" target="element"> CIP Server</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-47a9b89ebb664530b4086a893e13e5db.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+											<td><a href="../elements/id-c293a8672a584bd2afbfa19be2e7896b.html" target="element"> RJ12 Socket (SAP 001)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b04eb87102594c76a2b6759486a94e8e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+											<td><a href="../elements/id-2bbbb4583062483699b8699adc57817d.html" target="element"> EEPROM Smart Meter Registers COSEM Data Model OBIS Objects</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4a1ab3c8c7514eb39a52f1dbc38e34e6.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+											<td><a href="../elements/id-70ceca3a16f54d0dba34a95d41963b8f.html" target="element"> IDIS Smart Meter Software</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-8e9e4e61b8c04d60b34c3a4c0817ca7a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-de3ac0ca1e3c4d6eb4356dcfbe6a4d68.html" target="element"> DSMR P1</a></td>
+											<td><a href="../elements/id-90e5e0e1245c46228aa701d3424b82a0.html" target="element"> IDIS Smart Meter</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

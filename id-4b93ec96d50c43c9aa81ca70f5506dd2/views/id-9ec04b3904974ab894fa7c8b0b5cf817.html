@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Neo4j Build & Run & Use</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Neo4j Build &amp; Run &amp; Use</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-9ec04b3904974ab894fa7c8b0b5cf817.png" alt="Neo4j Build & Run & Use" usemap="#id-9ec04b3904974ab894fa7c8b0b5cf817map"/>
+			   <map name="id-9ec04b3904974ab894fa7c8b0b5cf817map">
+				  		<area shape="rect" coords="1930,949,2070,1029" href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html"  target="element">
+				  		<area shape="rect" coords="1641,10,1781,90" href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html"  target="element">
+				  		<area shape="rect" coords="2660,130,2800,210" href="../elements/id-bcc75485bb0848d3a4480a883ae14904.html"  target="element">
+				  		<area shape="rect" coords="2500,130,2640,210" href="../elements/id-ca1dbc0f8c9d40d4a6c1ac44598a32d3.html"  target="element">
+				  		<area shape="rect" coords="2160,130,2300,210" href="../elements/id-0d5a5e4f043c4409a66a5ff0fea73e00.html"  target="element">
+				  		<area shape="rect" coords="1820,130,1960,210" href="../elements/id-1a05991642374185adf58e4b1ab99b2b.html"  target="element">
+				  		<area shape="rect" coords="1460,10,1600,90" href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html"  target="element">
+				  		<area shape="rect" coords="1460,130,1600,210" href="../elements/id-3774ac60ee1d4ad5806dedc15b6dc1a6.html"  target="element">
+				  		<area shape="rect" coords="2320,130,2460,210" href="../elements/id-eafea790125747a3b0d08e088857f95d.html"  target="element">
+				  		<area shape="rect" coords="1980,130,2120,210" href="../elements/id-0319c88cf8794451b1e9cda51868f007.html"  target="element">
+				  		<area shape="rect" coords="1640,130,1780,210" href="../elements/id-84b1b83836be4824aa20483a72baadb4.html"  target="element">
+				  				<area shape="rect" coords="1640,290,1781,345" href="../views/id-6471301918534a3cbf17948ce768d5d2.html"  target="view">
+				  		    <!-- Other diagram objects -->
+
+				  		<area shape="rect" coords="1630,250,1791,351" href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html"  target="element">
+				  		<area shape="rect" coords="390,370,530,450" href="../elements/id-670f1f57096049fd8cf4cc2099eb9357.html"  target="element">
+				  		<area shape="rect" coords="749,130,889,210" href="../elements/id-fad0b56699484910a7b363fc77328f8f.html"  target="element">
+				  		<area shape="rect" coords="570,130,710,210" href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html"  target="element">
+				  		<area shape="rect" coords="930,130,1070,210" href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html"  target="element">
+				  		<area shape="rect" coords="1300,250,1440,330" href="../elements/id-40b4a463effc447fbfa17f96119a3207.html"  target="element">
+				  						<area shape="rect" coords="1620,949,1760,1029" href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html"  target="element">
+				  						<area shape="rect" coords="1460,949,1600,1029" href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html"  target="element">
+				  						<area shape="rect" coords="1300,949,1440,1029" href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html"  target="element">
+				  						<area shape="rect" coords="1120,949,1260,1029" href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html"  target="element">
+				  						<area shape="rect" coords="1460,1050,1600,1130" href="../elements/id-7e004e23f5ca438e8f2193167339429a.html"  target="element">
+				  						<area shape="rect" coords="1300,1050,1440,1130" href="../elements/id-9a3018e2efcb4a5eae757c004eb140a5.html"  target="element">
+				  						<area shape="rect" coords="1120,1050,1260,1130" href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html"  target="element">
+				  						<area shape="rect" coords="1300,1150,1440,1230" href="../elements/id-02c63c061ae84a00956644ddb15742a9.html"  target="element">
+				  						<area shape="rect" coords="1120,1150,1260,1230" href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html"  target="element">
+
+				  				<area shape="rect" coords="1110,929,1771,1241" href="../elements/id-530dcedea6c345829f18bcd3067ee698.html"  target="element">
+				  				<area shape="rect" coords="1460,750,1600,830" href="../elements/id-c539df40f81a43d7916dd38580496009.html"  target="element">
+				  				<area shape="rect" coords="1300,850,1440,930" href="../elements/id-0ebc56dedb814533bb23c825600bef55.html"  target="element">
+				  				<area shape="rect" coords="1120,850,1260,930" href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html"  target="element">
+				  				<area shape="rect" coords="1300,750,1440,830" href="../elements/id-8d2c34ac941c478f948861232e797280.html"  target="element">
+				  				<area shape="rect" coords="1120,750,1260,830" href="../elements/id-3aa1b180633e4249ae801949a281b688.html"  target="element">
+
+				  		<area shape="rect" coords="1110,720,1780,1251" href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html"  target="element">
+				  				<area shape="rect" coords="1300,589,1440,669" href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html"  target="element">
+				  				<area shape="rect" coords="1120,589,1260,669" href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html"  target="element">
+				  				<area shape="rect" coords="1300,469,1440,549" href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html"  target="element">
+				  				<area shape="rect" coords="1120,469,1260,549" href="../elements/id-9375088679404d3a84334a68a0dd218e.html"  target="element">
+
+				  		<area shape="rect" coords="1110,449,1780,681" href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html"  target="element">
+				  		<area shape="rect" coords="570,370,710,450" href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html"  target="element">
+				  		<area shape="rect" coords="700,960,840,1040" href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html"  target="element">
+				  		<area shape="rect" coords="700,840,840,920" href="../elements/id-f44e53e26fa44b648d9e7b13dd95e865.html"  target="element">
+				  		<area shape="rect" coords="520,601,660,681" href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html"  target="element">
+				  		<area shape="rect" coords="700,1300,840,1380" href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html"  target="element">
+				  		<area shape="rect" coords="390,1300,530,1380" href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html"  target="element">
+				  		<area shape="rect" coords="210,1300,350,1380" href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html"  target="element">
+				  		<area shape="rect" coords="700,1070,840,1150" href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html"  target="element">
+				  		<area shape="rect" coords="520,1070,660,1150" href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html"  target="element">
+				  		<area shape="rect" coords="390,1200,530,1280" href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html"  target="element">
+				  		<area shape="rect" coords="210,1200,350,1280" href="../elements/id-332349f25d994835aaadbea56329bcc6.html"  target="element">
+				  		<area shape="rect" coords="30,1200,170,1280" href="../elements/id-4c3255e1b835447293bf0119afb80f53.html"  target="element">
+				  		<area shape="rect" coords="1110,250,1250,330" href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html"  target="element">
+				  		<area shape="rect" coords="930,250,1070,330" href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html"  target="element">
+				  		<area shape="rect" coords="10,250,150,330" href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html"  target="element">
+				  		<area shape="rect" coords="10,130,150,210" href="../elements/id-c94d4e9a96164132aae300596989d112.html"  target="element">
+				  		<area shape="rect" coords="1110,130,1250,210" href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html"  target="element">
+				  		<area shape="rect" coords="930,471,1070,551" href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html"  target="element">
+				  		<area shape="rect" coords="930,350,1070,430" href="../elements/id-62577a98cff14092beb9460bbb3e501c.html"  target="element">
+				  		<area shape="rect" coords="700,720,840,800" href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html"  target="element">
+				  		<area shape="rect" coords="700,601,840,681" href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html"  target="element">
+				  		<area shape="rect" coords="930,949,1070,1029" href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html"  target="element">
+				  		<area shape="rect" coords="749,350,889,430" href="../elements/id-1062d3e8511346a08335a3c603cbb317.html"  target="element">
+				  		<area shape="rect" coords="570,250,710,330" href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html"  target="element">
+				  		<area shape="rect" coords="390,250,530,330" href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html"  target="element">
+				  		<area shape="rect" coords="390,490,530,570" href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html"  target="element">
+				  				<area shape="rect" coords="200,459,340,539" href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html"  target="element">
+				  				<area shape="rect" coords="200,359,340,439" href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html"  target="element">
+				  				<area shape="rect" coords="200,259,340,339" href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html"  target="element">
+
+				  		<area shape="rect" coords="190,229,350,551" href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Neo4j setup process and exposed services with their usage by Cursor IDE for enriched RAG IA repository queries</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+											    <td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+													    <td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+													    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+													    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+											    <td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+											    <td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+											    <td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+											    <td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+											    <td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+											    <td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element"> Images </a> </td>
+											    <td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+											    <td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+											    <td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element"> docker.io </a> </td>
+											    <td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+											    <td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element"> Container Startup </a> </td>
+											    <td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element" class="i18n-elementtype-TechnologyEvent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+											    <td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+											    <td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+											    <td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+											    <td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+											    <td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+											    <td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html" target="element"> Neo4j Graph Database </a> </td>
+											    <td> <a href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f44e53e26fa44b648d9e7b13dd95e865.html" target="element"> Neo4j Database Server </a> </td>
+											    <td> <a href="../elements/id-f44e53e26fa44b648d9e7b13dd95e865.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element"> Neo4j </a> </td>
+											    <td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+											    <td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+											    <td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element"> startup </a> </td>
+													    <td> <a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html" target="element"> docker-entrypoint.sh </a> </td>
+													    <td> <a href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element"> Environment Variables (volatile) </a> </td>
+													    <td> <a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html" target="element"> Variables NEO4J_* </a> </td>
+													    <td> <a href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+											    <td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin </a> </td>
+													    <td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8d2c34ac941c478f948861232e797280.html" target="element"> neo4j </a> </td>
+													    <td> <a href="../elements/id-8d2c34ac941c478f948861232e797280.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element"> /var/lib/neo4j/conf </a> </td>
+													    <td> <a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0ebc56dedb814533bb23c825600bef55.html" target="element"> neo4j.conf </a> </td>
+													    <td> <a href="../elements/id-0ebc56dedb814533bb23c825600bef55.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c539df40f81a43d7916dd38580496009.html" target="element"> neo4j-admin cypher-shell neo4j-import </a> </td>
+													    <td> <a href="../elements/id-c539df40f81a43d7916dd38580496009.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+													    <td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element" class="i18n-elementtype-Grouping">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html" target="element"> /var/lib/neo4j/data/transactions </a> </td>
+															    <td> <a href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html" target="element" class="i18n-elementtype-Device">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-02c63c061ae84a00956644ddb15742a9.html" target="element"> neostore.transaction.db.* </a> </td>
+															    <td> <a href="../elements/id-02c63c061ae84a00956644ddb15742a9.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element"> /var/lib/neo4j/log </a> </td>
+															    <td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element" class="i18n-elementtype-Device">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-9a3018e2efcb4a5eae757c004eb140a5.html" target="element"> neo4j.log </a> </td>
+															    <td> <a href="../elements/id-9a3018e2efcb4a5eae757c004eb140a5.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-7e004e23f5ca438e8f2193167339429a.html" target="element"> debug.log </a> </td>
+															    <td> <a href="../elements/id-7e004e23f5ca438e8f2193167339429a.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+															    <td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element" class="i18n-elementtype-Device">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html" target="element"> neostore.nodestore.d </a> </td>
+															    <td> <a href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html" target="element"> neostore.relationshipstore.db </a> </td>
+															    <td> <a href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html" target="element"> store_lock </a> </td>
+															    <td> <a href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html" target="element" class="i18n-elementtype-Artifact">
+															    </a> </td>
+															</tr>
+
+													
+											
+											<tr>
+											    <td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+											    <td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element" class="i18n-elementtype-TechnologyProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element"> Neo4j </a> </td>
+											    <td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element"> neo4j:5.17.0 </a> </td>
+											    <td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-fad0b56699484910a7b363fc77328f8f.html" target="element"> neo4j-image </a> </td>
+											    <td> <a href="../elements/id-fad0b56699484910a7b363fc77328f8f.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-670f1f57096049fd8cf4cc2099eb9357.html" target="element"> neo4j yml section </a> </td>
+											    <td> <a href="../elements/id-670f1f57096049fd8cf4cc2099eb9357.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+											    <td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../views/id-6471301918534a3cbf17948ce768d5d2.html" target="view"> Neo4j Database Service - Structure </a> </td>
+													    <td> <a href="../views/id-6471301918534a3cbf17948ce768d5d2.html" target="view" class="i18n-viewpoint-"> </a> </td>
+													</tr>
+											    <!-- Other graphical objects -->
+
+											
+											<tr>
+											    <td> <a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element"> Neo4j Bolt Protocol Service </a> </td>
+											    <td> <a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0319c88cf8794451b1e9cda51868f007.html" target="element"> Neo4j Browser UI Service </a> </td>
+											    <td> <a href="../elements/id-0319c88cf8794451b1e9cda51868f007.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-eafea790125747a3b0d08e088857f95d.html" target="element"> Neo4j Metrics and Health Monitoring Service </a> </td>
+											    <td> <a href="../elements/id-eafea790125747a3b0d08e088857f95d.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3774ac60ee1d4ad5806dedc15b6dc1a6.html" target="element"> Neo4j Utilities </a> </td>
+											    <td> <a href="../elements/id-3774ac60ee1d4ad5806dedc15b6dc1a6.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element"> Docker Desktop - Container Management Console - UI </a> </td>
+											    <td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1a05991642374185adf58e4b1ab99b2b.html" target="element"> BOLT:7687 </a> </td>
+											    <td> <a href="../elements/id-1a05991642374185adf58e4b1ab99b2b.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0d5a5e4f043c4409a66a5ff0fea73e00.html" target="element"> HTTP:7474, HTTPS:7473 </a> </td>
+											    <td> <a href="../elements/id-0d5a5e4f043c4409a66a5ff0fea73e00.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-ca1dbc0f8c9d40d4a6c1ac44598a32d3.html" target="element"> HTTP:2000-2004/Custom </a> </td>
+											    <td> <a href="../elements/id-ca1dbc0f8c9d40d4a6c1ac44598a32d3.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-bcc75485bb0848d3a4480a883ae14904.html" target="element"> TCP Graphite:2003 </a> </td>
+											    <td> <a href="../elements/id-bcc75485bb0848d3a4480a883ae14904.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts </a> </td>
+											    <td> <a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element" class="i18n-elementtype-ApplicationProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html" target="element"> Neo4j Graph Database </a> </td>
+											    <td> <a href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-4dc3d792cf44488f81d2bfb11d4ee0e2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4dc3d792cf44488f81d2bfb11d4ee0e2.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8765c47a03ee4f12af600a36fb8ae21f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8765c47a03ee4f12af600a36fb8ae21f.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5b2d94c354604e5e97f376501ac111d9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b2d94c354604e5e97f376501ac111d9.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f2602ca73d64430d9291cd8d295cdea5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f2602ca73d64430d9291cd8d295cdea5.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																				<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-668c0796bf834fa3adc8143bfffddd0a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-668c0796bf834fa3adc8143bfffddd0a.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																				<td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-d404a9df0c0348f1b93476a4b7b5146b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d404a9df0c0348f1b93476a4b7b5146b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+																		<td> <a href="../elements/id-670f1f57096049fd8cf4cc2099eb9357.html" target="element"> neo4j yml section </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f0d3c4603dc74bcfa2ef9152ef59149c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f0d3c4603dc74bcfa2ef9152ef59149c.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-670f1f57096049fd8cf4cc2099eb9357.html" target="element"> neo4j yml section </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element"> docker pull {docker-image-name} </a> </td>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c1739aa8ee9f49968dc97c7688e48ff9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c1739aa8ee9f49968dc97c7688e48ff9.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7bf69e402f334a3da714ad2a7691c07c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7bf69e402f334a3da714ad2a7691c07c.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																		<td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1b17b92fcbb5498c849a824ccba19f2f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1b17b92fcbb5498c849a824ccba19f2f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-20fa7139e62b474087674be8ced58db2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-20fa7139e62b474087674be8ced58db2.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c246da988bbc4b109b419ed532b04c6e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c246da988bbc4b109b419ed532b04c6e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element"> Images </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3e0ce989d7db40f2a2b63e632bad72f6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3e0ce989d7db40f2a2b63e632bad72f6.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																		<td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element"> /var/lib/neo4j/log </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a4019d7f10084edcb47cb453107b4266.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a4019d7f10084edcb47cb453107b4266.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																		<td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8400cc0457db4037b883249d28845a25.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8400cc0457db4037b883249d28845a25.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																		<td> <a href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html" target="element"> /var/lib/neo4j/data/transactions </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a4f1dd9e7ae8479a97e99af2c3ea260f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a4f1dd9e7ae8479a97e99af2c3ea260f.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																		<td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6a88d08b2b5a429ea0c5d3ca4cc29504.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6a88d08b2b5a429ea0c5d3ca4cc29504.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																		<td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-76294c11e44a483fa34708e7b69b1637.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-76294c11e44a483fa34708e7b69b1637.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-22faf9caabf446e4b725797d2bc68a22.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-22faf9caabf446e4b725797d2bc68a22.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element"> startup </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-df80979590b945818f25039d2d57871b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-df80979590b945818f25039d2d57871b.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element"> Environment Variables (volatile) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a8a1730d2394473ea6425d2eefad5c2b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a8a1730d2394473ea6425d2eefad5c2b.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element"> /var/lib/neo4j/conf </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-95db2bfa6b7a46138f344045566f275a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-95db2bfa6b7a46138f344045566f275a.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+																		<td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element"> Neo4j </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-490c0dedabae4c8eb1cd976496cb49c3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-490c0dedabae4c8eb1cd976496cb49c3.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element"> docker.io </a> </td>
+																		<td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-bed9d831e90b433bbfc354fa6e009e7f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bed9d831e90b433bbfc354fa6e009e7f.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+																		<td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element"> Container Startup </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-32c1d5a36d234fbe8063bc699b7695d1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-32c1d5a36d234fbe8063bc699b7695d1.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-89a80bc683854d2388aaf42866313d01.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-89a80bc683854d2388aaf42866313d01.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e9a8dd50032b43c1a34107cb4e5dc633.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e9a8dd50032b43c1a34107cb4e5dc633.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																		<td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1e62f1eef7a24262b19ff0abef6434ef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1e62f1eef7a24262b19ff0abef6434ef.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+																		<td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c277096905dd4571a79008e315f08dc4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c277096905dd4571a79008e315f08dc4.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6c11f703502547e7938ca8c700a5cef3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6c11f703502547e7938ca8c700a5cef3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																		<td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4fa84471c5a14fa7893baf290039e885.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4fa84471c5a14fa7893baf290039e885.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-811baad754aa47819662711e78ee9bc3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-811baad754aa47819662711e78ee9bc3.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+																		<td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a635f4634c894068b303ccea391b30bc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a635f4634c894068b303ccea391b30bc.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																		<td> <a href="../elements/id-ca1dbc0f8c9d40d4a6c1ac44598a32d3.html" target="element"> HTTP:2000-2004/Custom </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-22844608427c47b4a31bf0ee863c52a9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-22844608427c47b4a31bf0ee863c52a9.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																		<td> <a href="../elements/id-0d5a5e4f043c4409a66a5ff0fea73e00.html" target="element"> HTTP:7474, HTTPS:7473 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5df5a615505a4b84aeb4b2634709a8e6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5df5a615505a4b84aeb4b2634709a8e6.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																		<td> <a href="../elements/id-1a05991642374185adf58e4b1ab99b2b.html" target="element"> BOLT:7687 </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e844a998560b493684d1176a4d793a76.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e844a998560b493684d1176a4d793a76.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																		<td> <a href="../elements/id-bcc75485bb0848d3a4480a883ae14904.html" target="element"> TCP Graphite:2003 </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-07ca11d0e559476ca4031f09050ba7e6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-07ca11d0e559476ca4031f09050ba7e6.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html" target="element"> Neo4j Graph Database </a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dfd74a1f37974c6eaf923c9eb6ba5baf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dfd74a1f37974c6eaf923c9eb6ba5baf.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html" target="element"> Neo4j Graph Database </a> </td>
+																		<td> <a href="../elements/id-f44e53e26fa44b648d9e7b13dd95e865.html" target="element"> Neo4j Database Server </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-91e548ed797f4aeeb38d8d3bd3bf9da8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-91e548ed797f4aeeb38d8d3bd3bf9da8.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd792d3a08264469a8d60d7a3d891ee4.html" target="element"> Neo4j Graph Database </a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1c82bed5bd2f4f058723f974d9fe3404.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1c82bed5bd2f4f058723f974d9fe3404.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f44e53e26fa44b648d9e7b13dd95e865.html" target="element"> Neo4j Database Server </a> </td>
+																		<td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element"> Neo4j </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8b88719d3398486c86fc87129779ff50.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8b88719d3398486c86fc87129779ff50.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1783fb1a6a9e4a1ca96eecf83a96d336.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1783fb1a6a9e4a1ca96eecf83a96d336.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-db686fa20d1245a19174bf9dd8276673.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-db686fa20d1245a19174bf9dd8276673.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+																		<td> <a href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html" target="element"> Variables NEO4J_* </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-89ef9cff1e6e410cb07a20f473b5ebd3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-89ef9cff1e6e410cb07a20f473b5ebd3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+																		<td> <a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element"> startup </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a429dd08d9764b3b9cb58f831569e4fe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a429dd08d9764b3b9cb58f831569e4fe.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+																		<td> <a href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html" target="element"> docker-entrypoint.sh </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-65d3f760609e41d09c13bcb65143dc99.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-65d3f760609e41d09c13bcb65143dc99.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-adaf66d4331742fbbf8a89473d6d56f7.html" target="element"> Docker light base software components Docker managed </a> </td>
+																		<td> <a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element"> Environment Variables (volatile) </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-ca77bf2730754104bc8f4404ae7bdf3f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ca77bf2730754104bc8f4404ae7bdf3f.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-9375088679404d3a84334a68a0dd218e.html" target="element"> startup </a> </td>
+																				<td> <a href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html" target="element"> docker-entrypoint.sh </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-79bfba543d734dec9eed7c7503b7fb29.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-79bfba543d734dec9eed7c7503b7fb29.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-2c8e78e4368a4f478e4c739724b10f0e.html" target="element"> Environment Variables (volatile) </a> </td>
+																				<td> <a href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html" target="element"> Variables NEO4J_* </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-34ecb8ce4ffa48a2843af40682435350.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-34ecb8ce4ffa48a2843af40682435350.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5f4043371d29470db63d46a86de1a149.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5f4043371d29470db63d46a86de1a149.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-0ebc56dedb814533bb23c825600bef55.html" target="element"> neo4j.conf </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9cb8fca5b0ca462291abaed8bc847146.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9cb8fca5b0ca462291abaed8bc847146.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element"> /var/lib/neo4j/conf </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-921d74d3dae945348bc3c9f5e4f49e81.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-921d74d3dae945348bc3c9f5e4f49e81.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-c539df40f81a43d7916dd38580496009.html" target="element"> neo4j-admin cypher-shell neo4j-import </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bd288b4ab88a413eb4975b08d9b7bc96.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bd288b4ab88a413eb4975b08d9b7bc96.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1e270de57f874a9c97b7595a5b1d0d0b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1e270de57f874a9c97b7595a5b1d0d0b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-41b6f18f8c1545fa8b3d695a6a0c0c6a.html" target="element"> Neo4j software components </a> </td>
+																		<td> <a href="../elements/id-8d2c34ac941c478f948861232e797280.html" target="element"> neo4j </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b98763cdce44491da4c083fd09a8d175.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b98763cdce44491da4c083fd09a8d175.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin </a> </td>
+																				<td> <a href="../elements/id-c539df40f81a43d7916dd38580496009.html" target="element"> neo4j-admin cypher-shell neo4j-import </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-0bb53fbc2e604d428fdb675f8cd9527e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0bb53fbc2e604d428fdb675f8cd9527e.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-3aa1b180633e4249ae801949a281b688.html" target="element"> /var/lib/neo4j/bin </a> </td>
+																				<td> <a href="../elements/id-8d2c34ac941c478f948861232e797280.html" target="element"> neo4j </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-cb57179e3a984af88ee356883e0e1309.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-cb57179e3a984af88ee356883e0e1309.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-d823727e73e049a297d0d1610f71e6a1.html" target="element"> /var/lib/neo4j/conf </a> </td>
+																				<td> <a href="../elements/id-0ebc56dedb814533bb23c825600bef55.html" target="element"> neo4j.conf </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-c8d734df80ae4400bc74a1d1d15f8e33.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c8d734df80ae4400bc74a1d1d15f8e33.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c539df40f81a43d7916dd38580496009.html" target="element"> neo4j-admin cypher-shell neo4j-import </a> </td>
+																				<td> <a href="../elements/id-3774ac60ee1d4ad5806dedc15b6dc1a6.html" target="element"> Neo4j Utilities </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-03e4f4cb8cbf4069897aabc50eb9684b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-03e4f4cb8cbf4069897aabc50eb9684b.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-7e004e23f5ca438e8f2193167339429a.html" target="element"> debug.log </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-f4202ad15ce74d4c8627ff83fe8c680a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f4202ad15ce74d4c8627ff83fe8c680a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-8d08c6f771234c3b88becbe980f245be.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-8d08c6f771234c3b88becbe980f245be.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element"> /var/lib/neo4j/log </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-6d6627378100409fbc8b731ebfdda7cd.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-6d6627378100409fbc8b731ebfdda7cd.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-9a3018e2efcb4a5eae757c004eb140a5.html" target="element"> neo4j.log </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-0c3ca586e3f54450885c3298d9810afd.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0c3ca586e3f54450885c3298d9810afd.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html" target="element"> neostore.nodestore.d </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-5b9f193d430848d8b4c0fc43fa3d66b8.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-5b9f193d430848d8b4c0fc43fa3d66b8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html" target="element"> store_lock </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-d67f8e9631d045059f6ebf0ec9227819.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d67f8e9631d045059f6ebf0ec9227819.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html" target="element"> /var/lib/neo4j/data/transactions </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-7126af59ebfa49949a4f3b24dd32b5f3.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7126af59ebfa49949a4f3b24dd32b5f3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-02c63c061ae84a00956644ddb15742a9.html" target="element"> neostore.transaction.db.* </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-e78f6c86fbfc4984afc0af3a4aaecb39.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-e78f6c86fbfc4984afc0af3a4aaecb39.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																				<td> <a href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html" target="element"> neostore.relationshipstore.db </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-a5e294d119364bfb9d62cf6327f4f140.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-a5e294d119364bfb9d62cf6327f4f140.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-83fe59c3ce5042cbb7039ae62218967b.html" target="element"> /var/lib/neo4j/data/transactions </a> </td>
+																						<td> <a href="../elements/id-02c63c061ae84a00956644ddb15742a9.html" target="element"> neostore.transaction.db.* </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-7db4a5881a0748c89e386e807fdf24a4.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-7db4a5881a0748c89e386e807fdf24a4.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element"> /var/lib/neo4j/log </a> </td>
+																						<td> <a href="../elements/id-9a3018e2efcb4a5eae757c004eb140a5.html" target="element"> neo4j.log </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-c189347ee9184d82b32af3da30d887e6.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-c189347ee9184d82b32af3da30d887e6.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-74999d24ceb94df4a864601adf0a4cdb.html" target="element"> /var/lib/neo4j/log </a> </td>
+																						<td> <a href="../elements/id-7e004e23f5ca438e8f2193167339429a.html" target="element"> debug.log </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-b642b82e7744437ca5d6e413d997da5b.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-b642b82e7744437ca5d6e413d997da5b.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+																						<td> <a href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html" target="element"> neostore.relationshipstore.db </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-f3ee884558bb42d7b1ec43d06e6667b4.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-f3ee884558bb42d7b1ec43d06e6667b4.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+																						<td> <a href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html" target="element"> neostore.nodestore.d </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-43a321f0d2884ec198cd6169b2e167fc.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-43a321f0d2884ec198cd6169b2e167fc.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-dc07abad1d9e45bc8effe88536eb2d29.html" target="element"> /var/lib/neo4j/data/databases </a> </td>
+																						<td> <a href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html" target="element"> store_lock </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-b3ca1c6f3bbb4efd88252a31e2e50c29.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-b3ca1c6f3bbb4efd88252a31e2e50c29.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-303cb03dbd0f44d7b62ab14e75025147.html" target="element"> neostore.nodestore.d </a> </td>
+																						<td> <a href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html" target="element"> Neo4j Graph Database </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-793c22b77e9946d59721eba8a4245c1d.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-793c22b77e9946d59721eba8a4245c1d.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-d895f8ff50da4cb4b3b874fe66554764.html" target="element"> neostore.relationshipstore.db </a> </td>
+																						<td> <a href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html" target="element"> Neo4j Graph Database </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-930d65090b1a46b4a645e7b985fc06c2.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-930d65090b1a46b4a645e7b985fc06c2.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-e80a9e36e00a44fc826347b7bc94cc0f.html" target="element"> store_lock </a> </td>
+																						<td> <a href="../elements/id-16dbb52da11643c299e650150f4e6d2b.html" target="element"> Neo4j Graph Database </a> </td>
+																					</tr>
+
+													
+											
+																	<tr>
+																		<td> <a href="../elements/id-d8e1cc75e7114e4ca99386952c56d6af.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d8e1cc75e7114e4ca99386952c56d6af.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-296936ff7f104ffebe83022da7d7b88c.html" target="element"> Variables NEO4J_* </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-acfd8f70663a4e48a8c71c8a16d861da.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-acfd8f70663a4e48a8c71c8a16d861da.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-15b3b2b3ba8048d1a3e16c64ffb4191e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-15b3b2b3ba8048d1a3e16c64ffb4191e.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-8d2c34ac941c478f948861232e797280.html" target="element"> neo4j </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2f21c8c7126440218cbeb5e5695c4e08.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2f21c8c7126440218cbeb5e5695c4e08.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-0ebc56dedb814533bb23c825600bef55.html" target="element"> neo4j.conf </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0c091c58ffa046d5be4e193e59035901.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0c091c58ffa046d5be4e193e59035901.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-40b4a463effc447fbfa17f96119a3207.html" target="element"> Neo4j Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-5f887e96f0664a5fa36d7e6c61dfe004.html" target="element"> docker-entrypoint.sh </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9ccff0c5b7ef4bd1954c7e3ed7047845.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9ccff0c5b7ef4bd1954c7e3ed7047845.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7acc5b2fc9934467b5ca3dd84db0893f.html" target="element"> Neo4j </a> </td>
+																		<td> <a href="../elements/id-fad0b56699484910a7b363fc77328f8f.html" target="element"> neo4j-image </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-81e5d51a42e0467eb8f4c38034b96c16.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-81e5d51a42e0467eb8f4c38034b96c16.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element"> neo4j:5.17.0 </a> </td>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element">  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cb117d59fe1447d08de1e281ca192dfb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cb117d59fe1447d08de1e281ca192dfb.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element"> neo4j:5.17.0 </a> </td>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element"> docker pull {docker-image-name} </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fa1172277f8849a8901412d0b56dd91c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fa1172277f8849a8901412d0b56dd91c.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element"> neo4j:5.17.0 </a> </td>
+																		<td> <a href="../elements/id-fad0b56699484910a7b363fc77328f8f.html" target="element"> neo4j-image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c05057f8add748769f33408967cbbdaf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c05057f8add748769f33408967cbbdaf.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-068fff0a85b14fdca6871043d3a96fd4.html" target="element"> neo4j:5.17.0 </a> </td>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element">  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-23ae5ff23e984da8998865e9efcd75a0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-23ae5ff23e984da8998865e9efcd75a0.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+																		<td> <a href="../elements/id-530dcedea6c345829f18bcd3067ee698.html" target="element"> Neo4j Database Files </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-15b57b9fac994a9c879e268441819334.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-15b57b9fac994a9c879e268441819334.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+																		<td> <a href="../elements/id-eafea790125747a3b0d08e088857f95d.html" target="element"> Neo4j Metrics and Health Monitoring Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ba1726c1acc743ab809207af6b348de2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ba1726c1acc743ab809207af6b348de2.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+																		<td> <a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element"> Neo4j Bolt Protocol Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fff4b18841f341648f3086ab49a55867.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fff4b18841f341648f3086ab49a55867.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f6a1c2e6fa194c57b524b089f139f8a4.html" target="element"> Neo4j Database Service </a> </td>
+																		<td> <a href="../elements/id-0319c88cf8794451b1e9cda51868f007.html" target="element"> Neo4j Browser UI Service </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+											
+																	<tr>
+																		<td> <a href="../elements/id-e755477d744c4ee5bc4329d1f6d8db4c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e755477d744c4ee5bc4329d1f6d8db4c.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element"> Neo4j Bolt Protocol Service </a> </td>
+																		<td> <a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ccf44fcb935b4c34b4a54025d72fb058.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ccf44fcb935b4c34b4a54025d72fb058.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3774ac60ee1d4ad5806dedc15b6dc1a6.html" target="element"> Neo4j Utilities </a> </td>
+																		<td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element"> Docker Desktop - Container Management Console - UI </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b75d12dd805b4592b00b6ab2cfd409ec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b75d12dd805b4592b00b6ab2cfd409ec.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1a05991642374185adf58e4b1ab99b2b.html" target="element"> BOLT:7687 </a> </td>
+																		<td> <a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element"> Neo4j Bolt Protocol Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8b352fce0e9345aeb51fe71671aaae28.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8b352fce0e9345aeb51fe71671aaae28.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d5a5e4f043c4409a66a5ff0fea73e00.html" target="element"> HTTP:7474, HTTPS:7473 </a> </td>
+																		<td> <a href="../elements/id-0319c88cf8794451b1e9cda51868f007.html" target="element"> Neo4j Browser UI Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ecdeb4bf67dd425190f0d7535734fb27.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ecdeb4bf67dd425190f0d7535734fb27.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-ca1dbc0f8c9d40d4a6c1ac44598a32d3.html" target="element"> HTTP:2000-2004/Custom </a> </td>
+																		<td> <a href="../elements/id-eafea790125747a3b0d08e088857f95d.html" target="element"> Neo4j Metrics and Health Monitoring Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a88e1d235de14a6ea622400f9615290a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a88e1d235de14a6ea622400f9615290a.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bcc75485bb0848d3a4480a883ae14904.html" target="element"> TCP Graphite:2003 </a> </td>
+																		<td> <a href="../elements/id-eafea790125747a3b0d08e088857f95d.html" target="element"> Neo4j Metrics and Health Monitoring Service </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

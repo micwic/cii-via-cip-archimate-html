@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>openLDAP Build & Run & Use</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>openLDAP Build &amp; Run &amp; Use</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-a57639114c7a4be9a02a2966df372bd7.png" alt="openLDAP Build & Run & Use" usemap="#id-a57639114c7a4be9a02a2966df372bd7map"/>
+			   <map name="id-a57639114c7a4be9a02a2966df372bd7map">
+				  		<area shape="rect" coords="570,710,710,790" href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html"  target="element">
+				  				<area shape="rect" coords="2540,170,2680,250" href="../elements/id-d374f87009ee46a38268760a2869cedb.html"  target="element">
+
+				  		<area shape="rect" coords="2530,130,2690,271" href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html"  target="element">
+				  		<area shape="rect" coords="2540,10,2680,90" href="../elements/id-434699184ffc4300b450e8addbf54e9c.html"  target="element">
+				  				<area shape="rect" coords="2359,170,2499,250" href="../elements/id-dd3f86e33bbe49d89732bd21fe7a7528.html"  target="element">
+
+				  		<area shape="rect" coords="2349,130,2510,271" href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html"  target="element">
+				  		<area shape="rect" coords="2360,10,2500,90" href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html"  target="element">
+				  				<area shape="rect" coords="2540,340,2680,420" href="../elements/id-6dbfa8012d1e4d51856f69e93d5a6cfa.html"  target="element">
+				  				<area shape="rect" coords="2380,340,2520,420" href="../elements/id-f7e636f2e30c4d1a920102b8070ccf32.html"  target="element">
+
+				  		<area shape="rect" coords="2370,310,2690,430" href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html"  target="element">
+				  		<area shape="rect" coords="2010,470,2150,550" href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html"  target="element">
+				  		<area shape="rect" coords="2549,470,2690,550" href="../elements/id-13cd07842214483882e9b62f06f1db69.html"  target="element">
+				  		<area shape="rect" coords="2370,470,2510,550" href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html"  target="element">
+				  		<area shape="rect" coords="700,1640,840,1720" href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html"  target="element">
+				  		<area shape="rect" coords="390,1640,530,1720" href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html"  target="element">
+				  		<area shape="rect" coords="210,1640,350,1720" href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html"  target="element">
+				  		<area shape="rect" coords="700,1410,840,1490" href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html"  target="element">
+				  		<area shape="rect" coords="520,1410,660,1490" href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html"  target="element">
+				  		<area shape="rect" coords="390,1540,530,1620" href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html"  target="element">
+				  		<area shape="rect" coords="1650,1540,1790,1620" href="../elements/id-c9f492f88e604f1fbce3c585962291c9.html"  target="element">
+				  		<area shape="rect" coords="210,1540,350,1620" href="../elements/id-332349f25d994835aaadbea56329bcc6.html"  target="element">
+				  		<area shape="rect" coords="30,1540,170,1620" href="../elements/id-4c3255e1b835447293bf0119afb80f53.html"  target="element">
+				  		<area shape="rect" coords="2550,590,2690,670" href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html"  target="element">
+				  		<area shape="rect" coords="2370,590,2510,670" href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html"  target="element">
+				  		<area shape="rect" coords="2010,590,2150,670" href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html"  target="element">
+				  		<area shape="rect" coords="1290,811,1430,891" href="../elements/id-c0443b3efaa141469bbf24233905fdf1.html"  target="element">
+				  		<area shape="rect" coords="1110,811,1250,891" href="../elements/id-114f330ee2bc44e282debf9d69799b56.html"  target="element">
+				  		<area shape="rect" coords="2190,590,2330,670" href="../elements/id-dc2991299ec24f9fa00007848e433721.html"  target="element">
+				  		<area shape="rect" coords="1830,590,1970,670" href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html"  target="element">
+				  		<area shape="rect" coords="1470,590,1610,670" href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html"  target="element">
+				  		<area shape="rect" coords="1650,930,1790,1010" href="../elements/id-2537c58ed49e45ddaaf44075b6a4de5d.html"  target="element">
+				  		<area shape="rect" coords="1650,590,1790,670" href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html"  target="element">
+				  		<area shape="rect" coords="1110,930,1250,1010" href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html"  target="element">
+				  		<area shape="rect" coords="1290,590,1430,670" href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html"  target="element">
+				  		<area shape="rect" coords="10,590,150,670" href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html"  target="element">
+				  		<area shape="rect" coords="10,470,150,550" href="../elements/id-c94d4e9a96164132aae300596989d112.html"  target="element">
+				  		<area shape="rect" coords="930,470,1070,550" href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html"  target="element">
+				  		<area shape="rect" coords="1110,470,1250,550" href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html"  target="element">
+				  		<area shape="rect" coords="930,811,1070,891" href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html"  target="element">
+				  		<area shape="rect" coords="930,690,1070,770" href="../elements/id-62577a98cff14092beb9460bbb3e501c.html"  target="element">
+				  		<area shape="rect" coords="700,1300,840,1380" href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html"  target="element">
+				  		<area shape="rect" coords="700,1060,840,1140" href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html"  target="element">
+				  		<area shape="rect" coords="700,941,840,1021" href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html"  target="element">
+				  		<area shape="rect" coords="700,1180,840,1260" href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html"  target="element">
+				  		<area shape="rect" coords="520,941,660,1021" href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html"  target="element">
+				  		<area shape="rect" coords="930,1289,1070,1369" href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html"  target="element">
+				  		<area shape="rect" coords="749,690,889,770" href="../elements/id-1062d3e8511346a08335a3c603cbb317.html"  target="element">
+				  		<area shape="rect" coords="570,590,710,670" href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html"  target="element">
+				  		<area shape="rect" coords="570,470,710,550" href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html"  target="element">
+				  		<area shape="rect" coords="749,470,889,550" href="../elements/id-aad5075b07c44dd1a8b27da95480ec4e.html"  target="element">
+				  		<area shape="rect" coords="390,590,530,670" href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html"  target="element">
+				  		<area shape="rect" coords="390,830,530,910" href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html"  target="element">
+				  		<area shape="rect" coords="390,710,530,790" href="../elements/id-88cb18ba1b914aa2bfe765e2e67e3cbe.html"  target="element">
+				  				<area shape="rect" coords="2190,1170,2330,1250" href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html"  target="element">
+				  				<area shape="rect" coords="1640,1170,1780,1250" href="../elements/id-824d645bdd6b433db9639ec6b2897823.html"  target="element">
+				  				<area shape="rect" coords="2010,1410,2150,1490" href="../elements/id-a222a9728ad74c5ea787c3c708778322.html"  target="element">
+				  				<area shape="rect" coords="1830,1410,1970,1490" href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html"  target="element">
+				  				<area shape="rect" coords="1110,1410,1250,1490" href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html"  target="element">
+				  				<area shape="rect" coords="1110,1290,1250,1370" href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html"  target="element">
+				  				<area shape="rect" coords="1830,1170,1970,1250" href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html"  target="element">
+				  				<area shape="rect" coords="1460,1170,1600,1250" href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html"  target="element">
+				  				<area shape="rect" coords="1110,1170,1250,1250" href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html"  target="element">
+				  				<area shape="rect" coords="2010,1050,2150,1130" href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html"  target="element">
+				  				<area shape="rect" coords="1110,1050,1250,1130" href="../elements/id-eaa673387d8945e58279fa690bc26fb6.html"  target="element">
+
+				  		<area shape="rect" coords="1100,1040,2341,1501" href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html"  target="element">
+				  		<area shape="rect" coords="1100,800,2341,1021" href="../elements/id-aeb02d558c92418f9b47ad7a40e9b753.html"  target="element">
+				  				<area shape="rect" coords="200,799,340,879" href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html"  target="element">
+				  				<area shape="rect" coords="200,699,340,779" href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html"  target="element">
+				  				<area shape="rect" coords="200,599,340,679" href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html"  target="element">
+
+				  		<area shape="rect" coords="190,569,350,891" href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">open LDAP setup process and exposed services with their usage by others components of the CII via CIP ecosystem</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+											    <td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+													    <td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+													    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+													    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-aeb02d558c92418f9b47ad7a40e9b753.html" target="element"> Docker light base software components self managed </a> </td>
+											    <td> <a href="../elements/id-aeb02d558c92418f9b47ad7a40e9b753.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+											    <td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-eaa673387d8945e58279fa690bc26fb6.html" target="element"> usr/bin &amp; user/sbin </a> </td>
+													    <td> <a href="../elements/id-eaa673387d8945e58279fa690bc26fb6.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html" target="element"> slapadd slapcat ldapsearch ldapmodify ldapdelete </a> </td>
+													    <td> <a href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+													    <td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element"> ldap.conf </a> </td>
+													    <td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html" target="element"> startup.sh </a> </td>
+													    <td> <a href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element"> /etc/ldap </a> </td>
+													    <td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+													    <td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element" class="i18n-elementtype-Device">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element"> data.mdb </a> </td>
+													    <td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a222a9728ad74c5ea787c3c708778322.html" target="element"> lock.mdb </a> </td>
+													    <td> <a href="../elements/id-a222a9728ad74c5ea787c3c708778322.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element"> /assets/config/bootstrap/ldif/custom/50-bootstrap.ldif </a> </td>
+													    <td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html" target="element"> process.sh </a> </td>
+													    <td> <a href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html" target="element" class="i18n-elementtype-Artifact">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-88cb18ba1b914aa2bfe765e2e67e3cbe.html" target="element"> ldap yml section </a> </td>
+											    <td> <a href="../elements/id-88cb18ba1b914aa2bfe765e2e67e3cbe.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+											    <td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+											    <td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-aad5075b07c44dd1a8b27da95480ec4e.html" target="element"> osixia/openldap-image </a> </td>
+											    <td> <a href="../elements/id-aad5075b07c44dd1a8b27da95480ec4e.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element"> osixia/openldap:1.5.0 </a> </td>
+											    <td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+											    <td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+											    <td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+											    <td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html" target="element"> ldap.inoshift.com </a> </td>
+											    <td> <a href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html" target="element"> LDAP Server Service </a> </td>
+											    <td> <a href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+											    <td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element"> openldap </a> </td>
+											    <td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element"> Images </a> </td>
+											    <td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+											    <td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+											    <td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element"> openldap </a> </td>
+											    <td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+											    <td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element"> docker.io </a> </td>
+											    <td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+											    <td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html" target="element"> container/run </a> </td>
+											    <td> <a href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element"> Service Lifecycle Supervisor (runit) </a> </td>
+											    <td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element" class="i18n-elementtype-TechnologyProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2537c58ed49e45ddaaf44075b6a4de5d.html" target="element"> Container Initialization &amp; Startup Configuration files </a> </td>
+											    <td> <a href="../elements/id-2537c58ed49e45ddaaf44075b6a4de5d.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element"> Container Startup </a> </td>
+											    <td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element" class="i18n-elementtype-TechnologyEvent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+											    <td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element" class="i18n-elementtype-TechnologyProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-dc2991299ec24f9fa00007848e433721.html" target="element"> openLDAP Server Process Startup </a> </td>
+											    <td> <a href="../elements/id-dc2991299ec24f9fa00007848e433721.html" target="element" class="i18n-elementtype-TechnologyProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-114f330ee2bc44e282debf9d69799b56.html" target="element"> container/tool </a> </td>
+											    <td> <a href="../elements/id-114f330ee2bc44e282debf9d69799b56.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c0443b3efaa141469bbf24233905fdf1.html" target="element"> run </a> </td>
+											    <td> <a href="../elements/id-c0443b3efaa141469bbf24233905fdf1.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element"> OpenLDAP Utilities </a> </td>
+											    <td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+											    <td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html" target="element"> port:LDAP </a> </td>
+											    <td> <a href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html" target="element" class="i18n-elementtype-TechnologyInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c9f492f88e604f1fbce3c585962291c9.html" target="element"> config\ldap-cii-via-cip.ldif </a> </td>
+											    <td> <a href="../elements/id-c9f492f88e604f1fbce3c585962291c9.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+											    <td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+											    <td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+											    <td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+											    <td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+											    <td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+											    <td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element"> OpenLDAP </a> </td>
+											    <td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-13cd07842214483882e9b62f06f1db69.html" target="element"> port:LDAP </a> </td>
+											    <td> <a href="../elements/id-13cd07842214483882e9b62f06f1db69.html" target="element" class="i18n-elementtype-ApplicationInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element"> Docker Desktop - Container Management Console - UI </a> </td>
+											    <td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html" target="element"> Keycloak Identity Federation </a> </td>
+											    <td> <a href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f7e636f2e30c4d1a920102b8070ccf32.html" target="element"> Keycloack User Federation </a> </td>
+													    <td> <a href="../elements/id-f7e636f2e30c4d1a920102b8070ccf32.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-6dbfa8012d1e4d51856f69e93d5a6cfa.html" target="element"> Keycloack Authentication Service </a> </td>
+													    <td> <a href="../elements/id-6dbfa8012d1e4d51856f69e93d5a6cfa.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element"> Flowable Work </a> </td>
+											    <td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html" target="element"> Flowable Work </a> </td>
+											    <td> <a href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html" target="element" class="i18n-elementtype-ApplicationFunction">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dd3f86e33bbe49d89732bd21fe7a7528.html" target="element"> Flowable Identity Provider </a> </td>
+													    <td> <a href="../elements/id-dd3f86e33bbe49d89732bd21fe7a7528.html" target="element" class="i18n-elementtype-ApplicationFunction">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+											    <td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html" target="element"> B2C Portal Applications </a> </td>
+											    <td> <a href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html" target="element" class="i18n-elementtype-ApplicationFunction">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d374f87009ee46a38268760a2869cedb.html" target="element"> Portal Application &lt;&lt;CII via CIP Subscription BPA &gt;&gt; </a> </td>
+													    <td> <a href="../elements/id-d374f87009ee46a38268760a2869cedb.html" target="element" class="i18n-elementtype-ApplicationFunction">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+											    <td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-5b2d94c354604e5e97f376501ac111d9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b2d94c354604e5e97f376501ac111d9.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4dc3d792cf44488f81d2bfb11d4ee0e2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4dc3d792cf44488f81d2bfb11d4ee0e2.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f2602ca73d64430d9291cd8d295cdea5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f2602ca73d64430d9291cd8d295cdea5.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8765c47a03ee4f12af600a36fb8ae21f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8765c47a03ee4f12af600a36fb8ae21f.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																				<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-668c0796bf834fa3adc8143bfffddd0a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-668c0796bf834fa3adc8143bfffddd0a.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																				<td> <a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-5eb515d91b4c45ef8397b7bf32c3f735.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5eb515d91b4c45ef8397b7bf32c3f735.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-eaa673387d8945e58279fa690bc26fb6.html" target="element"> usr/bin &amp; user/sbin </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-109e4531a8e14ecd89ec84473664c610.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-109e4531a8e14ecd89ec84473664c610.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element"> /etc/ldap </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9e12f463297c41c0a1b74f0cb3d647a3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9e12f463297c41c0a1b74f0cb3d647a3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-44bb5281749b4fdc97c84d3559196b71.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-44bb5281749b4fdc97c84d3559196b71.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element"> data.mdb </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-70cd2033cd2d42cd95fceea8258f04d0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-70cd2033cd2d42cd95fceea8258f04d0.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-a222a9728ad74c5ea787c3c708778322.html" target="element"> lock.mdb </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9b8b5d0b1621436bb70fa69898402ec4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9b8b5d0b1621436bb70fa69898402ec4.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element"> ldap.conf </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fa8fb504a1234619acc9b2b3f48fba89.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fa8fb504a1234619acc9b2b3f48fba89.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element"> /assets/config/bootstrap/ldif/custom/50-bootstrap.ldif </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cc260482c6bc4735bbc445ef84e29370.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cc260482c6bc4735bbc445ef84e29370.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html" target="element"> process.sh </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d0ce815c8d14433f9410e600f5e61a98.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d0ce815c8d14433f9410e600f5e61a98.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html" target="element"> startup.sh </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-475af7d8f886451abce2944bbbb0b00d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-475af7d8f886451abce2944bbbb0b00d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html" target="element"> slapadd slapcat ldapsearch ldapmodify ldapdelete </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1deb00eb794a498ca7e9ca1f24f7cb61.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1deb00eb794a498ca7e9ca1f24f7cb61.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																		<td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-f6d825d970a54d98880b414c0b8de7f0.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f6d825d970a54d98880b414c0b8de7f0.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-eaa673387d8945e58279fa690bc26fb6.html" target="element"> usr/bin &amp; user/sbin </a> </td>
+																				<td> <a href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html" target="element"> slapadd slapcat ldapsearch ldapmodify ldapdelete </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-cf3eb3b04cd64dcdae651ad2e6456188.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-cf3eb3b04cd64dcdae651ad2e6456188.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-2ced7f98f6e0483fa8c908cf4cbec318.html" target="element"> slapadd slapcat ldapsearch ldapmodify ldapdelete </a> </td>
+																				<td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element"> OpenLDAP Utilities </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-9e63c97e333241709dccc76461e436cb.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-9e63c97e333241709dccc76461e436cb.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																				<td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element"> ldap.conf </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-b3c002f81ba142858fbe7d8ced571916.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b3c002f81ba142858fbe7d8ced571916.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																				<td> <a href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html" target="element"> process.sh </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-8527d0b557564e39a46fa985f7b30268.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-8527d0b557564e39a46fa985f7b30268.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																				<td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element"> /assets/config/bootstrap/ldif/custom/50-bootstrap.ldif </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-7eef963d63434d4486f2e357c607db2f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7eef963d63434d4486f2e357c607db2f.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																				<td> <a href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html" target="element"> startup.sh </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-473dd42a0fed4bbebd2cdcf7343e1eac.html" target="element"> Symbolic Link </a> </td>
+																				<td> <a href="../elements/id-473dd42a0fed4bbebd2cdcf7343e1eac.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element"> /etc/ldap </a> </td>
+																				<td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element"> ldap.conf </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c7d70a7ec3754568bc123c5eb30382f1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c7d70a7ec3754568bc123c5eb30382f1.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element"> /etc/ldap </a> </td>
+																				<td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-758a62d3907847bc94ca44ff2c5146bd.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-758a62d3907847bc94ca44ff2c5146bd.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+																				<td> <a href="../elements/id-a222a9728ad74c5ea787c3c708778322.html" target="element"> lock.mdb </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c4228f88c6b74042862ba9eb9a7b88f0.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c4228f88c6b74042862ba9eb9a7b88f0.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+																				<td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element"> data.mdb </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-d518dc40ffc142baab81a6a2f8e538a4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d518dc40ffc142baab81a6a2f8e538a4.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+																				<td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-1c95f69545fe4accb37c2fbed1cc87c5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1c95f69545fe4accb37c2fbed1cc87c5.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+																		<td> <a href="../elements/id-88cb18ba1b914aa2bfe765e2e67e3cbe.html" target="element"> ldap yml section </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element"> docker pull {docker-image-name} </a> </td>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-19a70dda201a4db18535cc6fb1b5f06d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-19a70dda201a4db18535cc6fb1b5f06d.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																		<td> <a href="../elements/id-88cb18ba1b914aa2bfe765e2e67e3cbe.html" target="element"> ldap yml section </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d42fc4f3f8e34c1ca6350210212818d0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d42fc4f3f8e34c1ca6350210212818d0.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element"> osixia/openldap:1.5.0 </a> </td>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element">  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fc92c2411cff458bb58108842e96de9c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fc92c2411cff458bb58108842e96de9c.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element"> osixia/openldap:1.5.0 </a> </td>
+																		<td> <a href="../elements/id-a87d312a45fb4474adf9a45a42e15739.html" target="element"> docker pull {docker-image-name} </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ebfd6771647e4a5384f33c4750861710.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ebfd6771647e4a5384f33c4750861710.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element"> osixia/openldap:1.5.0 </a> </td>
+																		<td> <a href="../elements/id-aad5075b07c44dd1a8b27da95480ec4e.html" target="element"> osixia/openldap-image </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-28333901daea43179de5172e9b00f7b6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-28333901daea43179de5172e9b00f7b6.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5752a3fd87314fa38a7b5b6869dd1d62.html" target="element"> osixia/openldap:1.5.0 </a> </td>
+																		<td> <a href="../elements/id-eba7711b120d457fa505e9d99bc24463.html" target="element">  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-12dc2f7f45ae4185848d5d86b7c9fffd.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7bf69e402f334a3da714ad2a7691c07c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7bf69e402f334a3da714ad2a7691c07c.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																		<td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1b17b92fcbb5498c849a824ccba19f2f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1b17b92fcbb5498c849a824ccba19f2f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c246da988bbc4b109b419ed532b04c6e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c246da988bbc4b109b419ed532b04c6e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-62577a98cff14092beb9460bbb3e501c.html" target="element"> Images </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-20fa7139e62b474087674be8ced58db2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-20fa7139e62b474087674be8ced58db2.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1062d3e8511346a08335a3c603cbb317.html" target="element"> docker_data.vhdx </a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e10d41658af642cda67941f19ea5303d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e10d41658af642cda67941f19ea5303d.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																		<td> <a href="../elements/id-280669aa3b8942bf8ca8985832bcf321.html" target="element"> /var/lib/ldap </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-71e7703930f442a6ae0b7bf5a621fef9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-71e7703930f442a6ae0b7bf5a621fef9.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3aa1bd21171b48a6a6325dffe1fb760e.html" target="element"> Volumes </a> </td>
+																		<td> <a href="../elements/id-60d44a797ca041adb3e64b709a56fee7.html" target="element"> /etc/ldap </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c8494c5576004e86946f8c2ecd4df158.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c8494c5576004e86946f8c2ecd4df158.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html" target="element"> ldap.inoshift.com </a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-06b4a58479df4d55bd20f62d6bfab876.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-06b4a58479df4d55bd20f62d6bfab876.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html" target="element"> ldap.inoshift.com </a> </td>
+																		<td> <a href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html" target="element"> LDAP Server Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f45fdab842cb42b293433be5597f6d14.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f45fdab842cb42b293433be5597f6d14.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9f23fbae54f24af9a412658b07e5ff38.html" target="element"> ldap.inoshift.com </a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-dadf54b0bae4482dac3d1ceae6a60e29.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dadf54b0bae4482dac3d1ceae6a60e29.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html" target="element"> LDAP Server Service </a> </td>
+																		<td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element"> openldap </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d6d83a7365a1426dbd7267dd78f7b0d3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d6d83a7365a1426dbd7267dd78f7b0d3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7f683c6cf2004baeaf43a47c2c465cb7.html" target="element"> LDAP Server Service </a> </td>
+																		<td> <a href="../elements/id-9f7b93191cb84d7ebb4b078c163449f3.html" target="element"> openLDAP software components </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4c9315f9ca2648cfbb41289f8c2f2736.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4c9315f9ca2648cfbb41289f8c2f2736.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																		<td> <a href="../elements/id-aeb02d558c92418f9b47ad7a40e9b753.html" target="element"> Docker light base software components self managed </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a4f1dd9e7ae8479a97e99af2c3ea260f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a4f1dd9e7ae8479a97e99af2c3ea260f.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ed22a09ebaa496d89d1759bad9d6d3f.html" target="element"> Container light base os </a> </td>
+																		<td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b5897d720ad54aceaa72e895b964835b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b5897d720ad54aceaa72e895b964835b.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html" target="element"> container/run </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-42480d91e5624bf2a299e83eaa0ad543.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-42480d91e5624bf2a299e83eaa0ad543.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-7b06f3ecf8c14124a731f3260d338c03.html" target="element"> /container/service/slapd </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3cbf5c3ab98c4c8c8555b3d004032968.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3cbf5c3ab98c4c8c8555b3d004032968.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d76673c5a14419c9229fac5ba33cdd3.html" target="element"> Containers </a> </td>
+																		<td> <a href="../elements/id-114f330ee2bc44e282debf9d69799b56.html" target="element"> container/tool </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a940046ddf1749ceaab70bb12b5cb148.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a940046ddf1749ceaab70bb12b5cb148.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43d41c8c68d64626b6a4b8f857ef69aa.html" target="element"> docker-light-base-image </a> </td>
+																		<td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element"> openldap </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-36abd87070b149808973395f090ce252.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-36abd87070b149808973395f090ce252.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f7942b0d828446c9c90bda5b9aabaa1.html" target="element"> openldap </a> </td>
+																		<td> <a href="../elements/id-aad5075b07c44dd1a8b27da95480ec4e.html" target="element"> osixia/openldap-image </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-490c0dedabae4c8eb1cd976496cb49c3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-490c0dedabae4c8eb1cd976496cb49c3.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1d1dc791ae924864b0a53f1a1ff7802c.html" target="element"> docker.io </a> </td>
+																		<td> <a href="../elements/id-c94d4e9a96164132aae300596989d112.html" target="element"> https://registry-1.docker.io </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-35009a8662ec490f9307ff6a09b63ecd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-35009a8662ec490f9307ff6a09b63ecd.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+																		<td> <a href="../elements/id-c0443b3efaa141469bbf24233905fdf1.html" target="element"> run </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bed9d831e90b433bbfc354fa6e009e7f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bed9d831e90b433bbfc354fa6e009e7f.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f2538f6944664d26b28de6799dddc1bf.html" target="element"> Container Initialization &amp; Supervision Stack Service </a> </td>
+																		<td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element"> Container Startup </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-5f61543904b940e0918ad25b69dd4efa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5f61543904b940e0918ad25b69dd4efa.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-80bcb419d4c54892bc3dd03ae06aedfb.html" target="element"> container/run </a> </td>
+																		<td> <a href="../elements/id-2537c58ed49e45ddaaf44075b6a4de5d.html" target="element"> Container Initialization &amp; Startup Configuration files </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-93f655d66d114ce1ac1565c8b51df2d1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-93f655d66d114ce1ac1565c8b51df2d1.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element"> Service Lifecycle Supervisor (runit) </a> </td>
+																		<td> <a href="../elements/id-2537c58ed49e45ddaaf44075b6a4de5d.html" target="element"> Container Initialization &amp; Startup Configuration files </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5f3ffba112014ff4a37b343f8b3bccbe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5f3ffba112014ff4a37b343f8b3bccbe.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element"> Service Lifecycle Supervisor (runit) </a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-71e0c3d60dfc4d4f9d2468f50a04cc41.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-71e0c3d60dfc4d4f9d2468f50a04cc41.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element"> Service Lifecycle Supervisor (runit) </a> </td>
+																		<td> <a href="../elements/id-dc2991299ec24f9fa00007848e433721.html" target="element"> openLDAP Server Process Startup </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4de5423fb1804169b57a43126676f970.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4de5423fb1804169b57a43126676f970.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ecfac02935f4ae7a2d9852a91072238.html" target="element"> Container Startup </a> </td>
+																		<td> <a href="../elements/id-1c3ef441e1d940f4b45ae59178f17f41.html" target="element"> Service Lifecycle Supervisor (runit) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4257b0e896ff48a884dd11e449cdb117.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4257b0e896ff48a884dd11e449cdb117.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-9c02d335dc7e4aac85899a69a1328258.html" target="element"> ldap.conf </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-629e7ef917724370a66546f2e4360302.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-629e7ef917724370a66546f2e4360302.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-de8314f6541a4ce7858cfd801f7839e3.html" target="element"> startup.sh </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-ff6b5ac4d13745829ec3255bfc8bd7dc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ff6b5ac4d13745829ec3255bfc8bd7dc.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element"> data.mdb </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d3ab82d5a38f4ffcb84f8343f6a8bcc6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d3ab82d5a38f4ffcb84f8343f6a8bcc6.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element"> OpenLDAP Utilities </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cf238c0733ce42c1b61a5a777f6db964.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cf238c0733ce42c1b61a5a777f6db964.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d18b3019bc8741b393cb42996ea20c37.html" target="element"> openLDAP Initialization &amp; Startup </a> </td>
+																		<td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element"> /assets/config/bootstrap/ldif/custom/50-bootstrap.ldif </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4a24272baea544e8a4916a22d9b3466b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4a24272baea544e8a4916a22d9b3466b.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dc2991299ec24f9fa00007848e433721.html" target="element"> openLDAP Server Process Startup </a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d333d378e7d34ef086e38c22d5cf89f7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d333d378e7d34ef086e38c22d5cf89f7.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dc2991299ec24f9fa00007848e433721.html" target="element"> openLDAP Server Process Startup </a> </td>
+																		<td> <a href="../elements/id-f58dd08c60f04636943ea7474ee60bb7.html" target="element"> process.sh </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-fe3f12eeff8340538275f5e4d2eaf3a3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fe3f12eeff8340538275f5e4d2eaf3a3.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-114f330ee2bc44e282debf9d69799b56.html" target="element"> container/tool </a> </td>
+																		<td> <a href="../elements/id-c0443b3efaa141469bbf24233905fdf1.html" target="element"> run </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e7838dde12024d09a479bfbe01a73798.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e7838dde12024d09a479bfbe01a73798.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element"> OpenLDAP Utilities </a> </td>
+																		<td> <a href="../elements/id-c40457e6a277456c8da5fb38f33111f5.html" target="element"> Docker Desktop - Container Management Console - UI </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ee6303acba874d08a63761abf4c9a1c5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ee6303acba874d08a63761abf4c9a1c5.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																		<td> <a href="../elements/id-6463822e42e24c79a973a98a6f7b0a59.html" target="element"> data.mdb </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a91f661d56ae4be0b8cc034c03d8c803.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a91f661d56ae4be0b8cc034c03d8c803.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																		<td> <a href="../elements/id-a222a9728ad74c5ea787c3c708778322.html" target="element"> lock.mdb </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-79ce2697afa54c5eaf428d17896efada.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-79ce2697afa54c5eaf428d17896efada.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																		<td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element"> OpenLDAP </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6c4436b58a56407ebba9621d4fccd244.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6c4436b58a56407ebba9621d4fccd244.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																		<td> <a href="../elements/id-de132172f8da49afa01d4d61a8f29a6a.html" target="element"> OpenLDAP Utilities </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ecc7c4e8a2d042d4ad1652e332575508.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ecc7c4e8a2d042d4ad1652e332575508.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html" target="element"> port:LDAP </a> </td>
+																		<td> <a href="../elements/id-13cd07842214483882e9b62f06f1db69.html" target="element"> port:LDAP </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-62f4738810ac442ab0dd0f253deb0c7a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-62f4738810ac442ab0dd0f253deb0c7a.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html" target="element"> port:LDAP </a> </td>
+																		<td> <a href="../elements/id-2d8d8a06b1e14cedbcd4006b1451e492.html" target="element"> OpenLDAP Server (slapd) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-32c1d5a36d234fbe8063bc699b7695d1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-32c1d5a36d234fbe8063bc699b7695d1.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-89a80bc683854d2388aaf42866313d01.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-89a80bc683854d2388aaf42866313d01.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e9a8dd50032b43c1a34107cb4e5dc633.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e9a8dd50032b43c1a34107cb4e5dc633.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																		<td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-819859aefd314d219ae108330aa343d3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-819859aefd314d219ae108330aa343d3.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c9f492f88e604f1fbce3c585962291c9.html" target="element"> config\ldap-cii-via-cip.ldif </a> </td>
+																		<td> <a href="../elements/id-824d645bdd6b433db9639ec6b2897823.html" target="element"> /assets/config/bootstrap/ldif/custom/50-bootstrap.ldif </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-839b9a5f0dbc4e449a63386b0fcfe275.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-839b9a5f0dbc4e449a63386b0fcfe275.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+																		<td> <a href="../elements/id-c9f492f88e604f1fbce3c585962291c9.html" target="element"> config\ldap-cii-via-cip.ldif </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1e62f1eef7a24262b19ff0abef6434ef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1e62f1eef7a24262b19ff0abef6434ef.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-26fa7aba71054901a8d1b20eaaf7b1c7.html" target="element"> cii-via-cip </a> </td>
+																		<td> <a href="../elements/id-58534c52bc6a43a391bc0b9f96f1d6e5.html" target="element"> docker-compose.yml </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c277096905dd4571a79008e315f08dc4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c277096905dd4571a79008e315f08dc4.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6c11f703502547e7938ca8c700a5cef3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6c11f703502547e7938ca8c700a5cef3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-7a9425b548224b4ba0bb5192cb7ad2dd.html" target="element"> Docker Container &amp; Ephemeral storage </a> </td>
+																		<td> <a href="../elements/id-d2437827ad8747dd85ba7d75f2b7e829.html" target="element"> Docker Container Permanent Storage </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-811baad754aa47819662711e78ee9bc3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-811baad754aa47819662711e78ee9bc3.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+																		<td> <a href="../elements/id-aac3c07416774b5d8d6fb8f189134f88.html" target="element"> localhost </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4fa84471c5a14fa7893baf290039e885.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4fa84471c5a14fa7893baf290039e885.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5cdafcac77994f22a264a2007b0ef99a.html" target="element"> Docker Desktop localhost </a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-590df9fa49a7495e9afba483bbe28fab.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-590df9fa49a7495e9afba483bbe28fab.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-93e3826a2f23421eb1f1a3046e386cd2.html" target="element"> Docker Container Internal IP Address </a> </td>
+																		<td> <a href="../elements/id-43bc573c7b0f4f08a4cd0e338cc5e975.html" target="element"> port:LDAP </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-46f02a0df2d14171bc93d577ab3b8fe7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-46f02a0df2d14171bc93d577ab3b8fe7.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element"> OpenLDAP </a> </td>
+																		<td> <a href="../elements/id-dd3f86e33bbe49d89732bd21fe7a7528.html" target="element"> Flowable Identity Provider </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0d77d01afeba4dd4beeaa6d0bddd8634.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d77d01afeba4dd4beeaa6d0bddd8634.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element"> OpenLDAP </a> </td>
+																		<td> <a href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html" target="element"> Keycloak Identity Federation </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8847d595b7b941f5b04cc080af979a19.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8847d595b7b941f5b04cc080af979a19.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-13cd07842214483882e9b62f06f1db69.html" target="element"> port:LDAP </a> </td>
+																		<td> <a href="../elements/id-2dea3a6089b74bb0a3eb030dd9c66d60.html" target="element"> OpenLDAP </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e5938620ef884da8bffd2dde3676a860.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e5938620ef884da8bffd2dde3676a860.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html" target="element"> Keycloak Identity Federation </a> </td>
+																		<td> <a href="../elements/id-6dbfa8012d1e4d51856f69e93d5a6cfa.html" target="element"> Keycloack Authentication Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0d4d934d891a4cbe8f91e99a80c67234.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d4d934d891a4cbe8f91e99a80c67234.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2cd3d0820ba64bc1808bde92c5e224b7.html" target="element"> Keycloak Identity Federation </a> </td>
+																		<td> <a href="../elements/id-f7e636f2e30c4d1a920102b8070ccf32.html" target="element"> Keycloack User Federation </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-2f07b7a7d2a94a99b0ef3f0329e9b85e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-2f07b7a7d2a94a99b0ef3f0329e9b85e.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-6dbfa8012d1e4d51856f69e93d5a6cfa.html" target="element"> Keycloack Authentication Service </a> </td>
+																				<td> <a href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html" target="element"> B2C Portal Applications </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-4230766d259940e7b3a45833dfbe0eb7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4230766d259940e7b3a45833dfbe0eb7.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element"> Flowable Work </a> </td>
+																		<td> <a href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html" target="element"> Flowable Work </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-58c4009382b7403b91012ebedaf3602e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-58c4009382b7403b91012ebedaf3602e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html" target="element"> Flowable Work </a> </td>
+																		<td> <a href="../elements/id-dd3f86e33bbe49d89732bd21fe7a7528.html" target="element"> Flowable Identity Provider </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2dd91794cc9447488ea9b9fd9d6301b2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2dd91794cc9447488ea9b9fd9d6301b2.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8db4f35b9a6940248857ec18c64682e2.html" target="element"> Flowable Work </a> </td>
+																		<td> <a href="../elements/id-d374f87009ee46a38268760a2869cedb.html" target="element"> Portal Application &lt;&lt;CII via CIP Subscription BPA &gt;&gt; </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-0c939f6083094b20ad8a23c3f9e44b54.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0c939f6083094b20ad8a23c3f9e44b54.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+																		<td> <a href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html" target="element"> B2C Portal Applications </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-42df63fb97e84a9ba444fabfde985218.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-42df63fb97e84a9ba444fabfde985218.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3d1e47b901be44d7a1ed753a71ab6553.html" target="element"> B2C Portal Applications </a> </td>
+																		<td> <a href="../elements/id-d374f87009ee46a38268760a2869cedb.html" target="element"> Portal Application &lt;&lt;CII via CIP Subscription BPA &gt;&gt; </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-1783fb1a6a9e4a1ca96eecf83a96d336.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1783fb1a6a9e4a1ca96eecf83a96d336.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-11e8f5a1a5ff400da8c503dd2d364d61.html" target="element"> Docker Compose </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8b88719d3398486c86fc87129779ff50.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8b88719d3398486c86fc87129779ff50.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0b36e31ca2594a358d075e772edcfda1.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-7d70c02aa5da4e2c95e0e49e55ec8375.html" target="element"> Docker Engine </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

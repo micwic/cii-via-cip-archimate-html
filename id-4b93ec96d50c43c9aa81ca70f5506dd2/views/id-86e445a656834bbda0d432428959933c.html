@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>0.3 Architecture Vision Goal & Requirements Realization</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>0.3 Architecture Vision Goal &amp; Requirements Realization</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-86e445a656834bbda0d432428959933c.png" alt="0.3 Architecture Vision Goal & Requirements Realization" usemap="#id-86e445a656834bbda0d432428959933cmap"/>
+			   <map name="id-86e445a656834bbda0d432428959933cmap">
+				  		<area shape="rect" coords="340,970,480,1050" href="../elements/id-11fa7fd06c91480b902fa7034225ad34.html"  target="element">
+				  		<area shape="rect" coords="160,701,750,781" href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html"  target="element">
+				  		<area shape="rect" coords="160,490,300,570" href="../elements/id-9acd326c68524fcb9cd2dfa702501b65.html"  target="element">
+				  		<area shape="rect" coords="10,1060,1800,1140" href="../elements/id-4c3255e1b835447293bf0119afb80f53.html"  target="element">
+				  		<area shape="rect" coords="10,791,150,871" href="../elements/id-e4886a3d6adb47679182557f0f213905.html"  target="element">
+				  		<area shape="rect" coords="160,791,900,871" href="../elements/id-851b1a34529247ce984302e5358ebb86.html"  target="element">
+				  		<area shape="rect" coords="1660,490,1800,570" href="../elements/id-2e44e495f69a4d768fc6e8aead93d6cf.html"  target="element">
+				  		<area shape="rect" coords="1660,610,1800,690" href="../elements/id-418407202c3d4c7caaf190d67445fd00.html"  target="element">
+				  		<area shape="rect" coords="10,1150,1801,1230" href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html"  target="element">
+				  		<area shape="rect" coords="1510,610,1650,690" href="../elements/id-edeb061fee57422da3eec13bd1d1fcb1.html"  target="element">
+				  		<area shape="rect" coords="1060,490,1200,570" href="../elements/id-57c5005f14104b0a9a858c9776be343f.html"  target="element">
+				  		<area shape="rect" coords="910,490,1050,570" href="../elements/id-ae37e32b7f0c422b817de10088165c30.html"  target="element">
+				  		<area shape="rect" coords="760,490,900,570" href="../elements/id-cb65af7a18b4460381a172ec4dd641e6.html"  target="element">
+				  		<area shape="rect" coords="10,880,1800,960" href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html"  target="element">
+				  		<area shape="rect" coords="1561,970,1701,1050" href="../elements/id-5aaf7f0740714c24aa0149b43436efdf.html"  target="element">
+				  		<area shape="rect" coords="1561,791,1701,871" href="../elements/id-d4d98a6dedb34730827fc88389aa1eeb.html"  target="element">
+				  		<area shape="rect" coords="1310,970,1450,1050" href="../elements/id-6af07f3a8d81433cb8882393f1f2bc4f.html"  target="element">
+				  		<area shape="rect" coords="1310,791,1450,871" href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html"  target="element">
+				  		<area shape="rect" coords="1360,610,1500,690" href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html"  target="element">
+				  		<area shape="rect" coords="1360,490,1500,570" href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html"  target="element">
+				  		<area shape="rect" coords="760,701,1200,781" href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html"  target="element">
+				  		<area shape="rect" coords="1210,701,1800,781" href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html"  target="element">
+				  		<area shape="rect" coords="1210,490,1350,570" href="../elements/id-434699184ffc4300b450e8addbf54e9c.html"  target="element">
+				  		<area shape="rect" coords="610,490,750,570" href="../elements/id-5f14aad3c61943cbabc8a91557624350.html"  target="element">
+				  		<area shape="rect" coords="460,490,600,570" href="../elements/id-43219dc55df84fa39029d9c2edbc11e0.html"  target="element">
+				  		<area shape="rect" coords="310,490,450,570" href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html"  target="element">
+				  		<area shape="rect" coords="10,490,150,570" href="../elements/id-e2165814a061489e9d16ce1da4c1320b.html"  target="element">
+				  		<area shape="rect" coords="1210,470,1801,690" href="../elements/id-5ab011d8263e4830ae7310ac5a1250c0.html"  target="element">
+				  				<area shape="rect" coords="1420,230,1790,310" href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html"  target="element">
+				  				<area shape="rect" coords="1259,229,1399,309" href="../elements/id-308b17d0425b439f86821fb17c624f8b.html"  target="element">
+				  				<area shape="rect" coords="1099,230,1239,310" href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html"  target="element">
+				  				<area shape="rect" coords="1420,130,1790,210" href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html"  target="element">
+				  				<area shape="rect" coords="1099,130,1399,210" href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html"  target="element">
+				  				<area shape="rect" coords="1099,30,1790,110" href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html"  target="element">
+
+				  		<area shape="rect" coords="1089,10,1800,321" href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html"  target="element">
+				  				<area shape="rect" coords="1606,360,1786,440" href="../elements/id-aed23cdbc0de40e18827be1fdfc45be6.html"  target="element">
+				  				<area shape="rect" coords="1416,360,1596,440" href="../elements/id-a3d7b7940edd4fd6b2a06c82559a9f1d.html"  target="element">
+				  				<area shape="rect" coords="1256,360,1396,440" href="../elements/id-a8700d8cb308417f83171f5558569dbe.html"  target="element">
+				  				<area shape="rect" coords="1096,360,1236,440" href="../elements/id-d0b25ca4817c4bbb9e15083ded6e9fe1.html"  target="element">
+
+				  		<area shape="rect" coords="1090,340,1799,450" href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+											    <td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-d0b25ca4817c4bbb9e15083ded6e9fe1.html" target="element"> Limit mass human intervention </a> </td>
+													    <td> <a href="../elements/id-d0b25ca4817c4bbb9e15083ded6e9fe1.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a8700d8cb308417f83171f5558569dbe.html" target="element"> Proven innovation, ready for adoption </a> </td>
+													    <td> <a href="../elements/id-a8700d8cb308417f83171f5558569dbe.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a3d7b7940edd4fd6b2a06c82559a9f1d.html" target="element"> End-to-end process orchestration ensures complete processing of customer requests </a> </td>
+													    <td> <a href="../elements/id-a3d7b7940edd4fd6b2a06c82559a9f1d.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-aed23cdbc0de40e18827be1fdfc45be6.html" target="element"> Responses to customer requests are instantaneous when conditions are met </a> </td>
+													    <td> <a href="../elements/id-aed23cdbc0de40e18827be1fdfc45be6.html" target="element" class="i18n-elementtype-Outcome">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+											    <td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html" target="element"> Operational Efficiency </a> </td>
+													    <td> <a href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html" target="element"> Cost Efficiency </a> </td>
+													    <td> <a href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html" target="element"> Customer Satisfaction </a> </td>
+													    <td> <a href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html" target="element" class="i18n-elementtype-Driver">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element"> Operational Cost Efficiency </a> </td>
+													    <td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-308b17d0425b439f86821fb17c624f8b.html" target="element"> Anticipate/Prepare for market changes </a> </td>
+													    <td> <a href="../elements/id-308b17d0425b439f86821fb17c624f8b.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element"> Fast, quality response to customer requests </a> </td>
+													    <td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element" class="i18n-elementtype-Goal">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-5ab011d8263e4830ae7310ac5a1250c0.html" target="element"> Scenario 2b - CII via CIP - BPA fully automated with RPA </a> </td>
+											    <td> <a href="../elements/id-5ab011d8263e4830ae7310ac5a1250c0.html" target="element" class="i18n-elementtype-Grouping">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e2165814a061489e9d16ce1da4c1320b.html" target="element"> Archi </a> </td>
+											    <td> <a href="../elements/id-e2165814a061489e9d16ce1da4c1320b.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+											    <td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43219dc55df84fa39029d9c2edbc11e0.html" target="element"> Archimate RAG System (ARAGS) </a> </td>
+											    <td> <a href="../elements/id-43219dc55df84fa39029d9c2edbc11e0.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5f14aad3c61943cbabc8a91557624350.html" target="element"> Archimate IA Vizualization </a> </td>
+											    <td> <a href="../elements/id-5f14aad3c61943cbabc8a91557624350.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+											    <td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+											    <td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+											    <td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+											    <td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element"> Flowable Work </a> </td>
+											    <td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html" target="element"> git </a> </td>
+											    <td> <a href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6af07f3a8d81433cb8882393f1f2bc4f.html" target="element"> github.com </a> </td>
+											    <td> <a href="../elements/id-6af07f3a8d81433cb8882393f1f2bc4f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d4d98a6dedb34730827fc88389aa1eeb.html" target="element"> FFrog &lt;&lt;Flowable Artifacts Repository&gt;&gt; </a> </td>
+											    <td> <a href="../elements/id-d4d98a6dedb34730827fc88389aa1eeb.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5aaf7f0740714c24aa0149b43436efdf.html" target="element"> JFrog </a> </td>
+											    <td> <a href="../elements/id-5aaf7f0740714c24aa0149b43436efdf.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+											    <td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-cb65af7a18b4460381a172ec4dd641e6.html" target="element"> Neo4j Graph Database for Archimate RAG (NEO4J-RAG) </a> </td>
+											    <td> <a href="../elements/id-cb65af7a18b4460381a172ec4dd641e6.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-ae37e32b7f0c422b817de10088165c30.html" target="element"> OpenLDAP </a> </td>
+											    <td> <a href="../elements/id-ae37e32b7f0c422b817de10088165c30.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element"> Keycloack </a> </td>
+											    <td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-edeb061fee57422da3eec13bd1d1fcb1.html" target="element"> Flowable Design </a> </td>
+											    <td> <a href="../elements/id-edeb061fee57422da3eec13bd1d1fcb1.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element"> Cloud </a> </td>
+											    <td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-418407202c3d4c7caaf190d67445fd00.html" target="element"> UIPath </a> </td>
+											    <td> <a href="../elements/id-418407202c3d4c7caaf190d67445fd00.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2e44e495f69a4d768fc6e8aead93d6cf.html" target="element"> UIPath &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+											    <td> <a href="../elements/id-2e44e495f69a4d768fc6e8aead93d6cf.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+											    <td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e4886a3d6adb47679182557f0f213905.html" target="element"> CII via CIP Archi Model </a> </td>
+											    <td> <a href="../elements/id-e4886a3d6adb47679182557f0f213905.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9acd326c68524fcb9cd2dfa702501b65.html" target="element"> Archimate IA Repository (AREPO) </a> </td>
+											    <td> <a href="../elements/id-9acd326c68524fcb9cd2dfa702501b65.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+											    <td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-11fa7fd06c91480b902fa7034225ad34.html" target="element"> Claude Sonnet </a> </td>
+											    <td> <a href="../elements/id-11fa7fd06c91480b902fa7034225ad34.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-d7736095b44a43ab9b1c6821d411b931.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d7736095b44a43ab9b1c6821d411b931.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a2f8eb6f91144fce901b16ae4c4cbf18.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2f8eb6f91144fce901b16ae4c4cbf18.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																		<td> <a href="../elements/id-a3d7b7940edd4fd6b2a06c82559a9f1d.html" target="element"> End-to-end process orchestration ensures complete processing of customer requests </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cc71435853744a16970d3e5ccf8bc130.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cc71435853744a16970d3e5ccf8bc130.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																		<td> <a href="../elements/id-a8700d8cb308417f83171f5558569dbe.html" target="element"> Proven innovation, ready for adoption </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-67af9e0d7fb04c09962439cf244bc974.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-67af9e0d7fb04c09962439cf244bc974.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																		<td> <a href="../elements/id-d0b25ca4817c4bbb9e15083ded6e9fe1.html" target="element"> Limit mass human intervention </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8ab487a409e6409983b5b0c07ef5de0a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8ab487a409e6409983b5b0c07ef5de0a.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																		<td> <a href="../elements/id-aed23cdbc0de40e18827be1fdfc45be6.html" target="element"> Responses to customer requests are instantaneous when conditions are met </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-0650a9b718474da0868f842a37a7db1e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0650a9b718474da0868f842a37a7db1e.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-d0b25ca4817c4bbb9e15083ded6e9fe1.html" target="element"> Limit mass human intervention </a> </td>
+																				<td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element"> Operational Cost Efficiency </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-ec7e98a25caa4fa5911bf9ee24a0110b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ec7e98a25caa4fa5911bf9ee24a0110b.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-a8700d8cb308417f83171f5558569dbe.html" target="element"> Proven innovation, ready for adoption </a> </td>
+																				<td> <a href="../elements/id-308b17d0425b439f86821fb17c624f8b.html" target="element"> Anticipate/Prepare for market changes </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-5aca88d895f345fbb3e85a0d538b9cf1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-5aca88d895f345fbb3e85a0d538b9cf1.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-a3d7b7940edd4fd6b2a06c82559a9f1d.html" target="element"> End-to-end process orchestration ensures complete processing of customer requests </a> </td>
+																				<td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element"> Fast, quality response to customer requests </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-f3bbe13fd19d4adbbed14c29b5fe983d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f3bbe13fd19d4adbbed14c29b5fe983d.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-aed23cdbc0de40e18827be1fdfc45be6.html" target="element"> Responses to customer requests are instantaneous when conditions are met </a> </td>
+																				<td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element"> Fast, quality response to customer requests </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-33989de8ce0b4418bf68d27ce9f50330.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-33989de8ce0b4418bf68d27ce9f50330.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-308b17d0425b439f86821fb17c624f8b.html" target="element"> Anticipate/Prepare for market changes </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7184894026664c638be4175ea78f694c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7184894026664c638be4175ea78f694c.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element"> Operational Cost Efficiency </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-96427a40e63b432d9a5bf8099f9f463e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-96427a40e63b432d9a5bf8099f9f463e.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html" target="element"> Cost Efficiency </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-565e3c5ae516444a8c5654cc692c8bd0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-565e3c5ae516444a8c5654cc692c8bd0.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html" target="element"> Operational Efficiency </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-61dbb0d2c92247688fe40c493876fd17.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-61dbb0d2c92247688fe40c493876fd17.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html" target="element"> Customer Satisfaction </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2eae97cc0ceb4e1a9e297e2d53926f09.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2eae97cc0ceb4e1a9e297e2d53926f09.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb092159f67a47a9a4b35608638c7c9b.html" target="element"> Aligning CII via CIP with corporate strategy and principles </a> </td>
+																		<td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element"> Fast, quality response to customer requests </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-5a0635744ede44fea70688f589bd668f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-5a0635744ede44fea70688f589bd668f.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html" target="element"> Operational Efficiency </a> </td>
+																				<td> <a href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html" target="element"> Customer Satisfaction </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-18f92987b27f4411aabb71bffbaf321e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-18f92987b27f4411aabb71bffbaf321e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f9a38fcbd9de48efa224a443978adf91.html" target="element"> Operational Efficiency </a> </td>
+																				<td> <a href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html" target="element"> Cost Efficiency </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-c721e1ec7b6c495b9305071e0990e5a3.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c721e1ec7b6c495b9305071e0990e5a3.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-0f8ac2e577c54758ac3b7fd87b201d17.html" target="element"> Cost Efficiency </a> </td>
+																				<td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element"> Operational Cost Efficiency </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-4ecfe07373214c8f86b35a7bbf1828f7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-4ecfe07373214c8f86b35a7bbf1828f7.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-37e19af969b34c6bbda0880a59bbdb45.html" target="element"> Customer Satisfaction </a> </td>
+																				<td> <a href="../elements/id-2fb4db6a13d54ae68b8ca34764ae426f.html" target="element"> Fast, quality response to customer requests </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-9bf958ad9f65431c979b2a690f64cb45.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-9bf958ad9f65431c979b2a690f64cb45.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-308b17d0425b439f86821fb17c624f8b.html" target="element"> Anticipate/Prepare for market changes </a> </td>
+																				<td> <a href="../elements/id-f06f74fba31e464fb256180dc1803f0d.html" target="element"> Operational Cost Efficiency </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-6ac35ce5eeff4a78b4c7a6f87a3cfc0c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ac35ce5eeff4a78b4c7a6f87a3cfc0c.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5ab011d8263e4830ae7310ac5a1250c0.html" target="element"> Scenario 2b - CII via CIP - BPA fully automated with RPA </a> </td>
+																		<td> <a href="../elements/id-4bb9082f9e16494a9b7d6e1b38148b91.html" target="element"> Scenario 2b - CII via CIP goals realization </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-5cb9626630d44e1a9f88ebb52ae25aea.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5cb9626630d44e1a9f88ebb52ae25aea.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e2165814a061489e9d16ce1da4c1320b.html" target="element"> Archi </a> </td>
+																		<td> <a href="../elements/id-e4886a3d6adb47679182557f0f213905.html" target="element"> CII via CIP Archi Model </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-983c76e66bce4008b86ff8d96a70467e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-983c76e66bce4008b86ff8d96a70467e.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-218b4ebf717d422c864dfad67986aedf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-218b4ebf717d422c864dfad67986aedf.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-e4886a3d6adb47679182557f0f213905.html" target="element"> CII via CIP Archi Model </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8aba6939fcb04fe08f3633e932fafc20.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8aba6939fcb04fe08f3633e932fafc20.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-43219dc55df84fa39029d9c2edbc11e0.html" target="element"> Archimate RAG System (ARAGS) </a> </td>
+																		<td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0033b49c5f6b4415869402cfe2cf6545.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0033b49c5f6b4415869402cfe2cf6545.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5f14aad3c61943cbabc8a91557624350.html" target="element"> Archimate IA Vizualization </a> </td>
+																		<td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-678c2e2b63124f92b3567bc89861be74.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-678c2e2b63124f92b3567bc89861be74.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e1699d37bf664e96a9c58644cd66ebb1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e1699d37bf664e96a9c58644cd66ebb1.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-923cde3b41684685b77b38f9df3a6512.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-923cde3b41684685b77b38f9df3a6512.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-cb65af7a18b4460381a172ec4dd641e6.html" target="element"> Neo4j Graph Database for Archimate RAG (NEO4J-RAG) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-272fc89af8644da6ac76ba440b0e5daf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-272fc89af8644da6ac76ba440b0e5daf.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element"> Keycloack </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0e683ad0d5604c4bbe9b64949d97bfa6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0e683ad0d5604c4bbe9b64949d97bfa6.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																		<td> <a href="../elements/id-ae37e32b7f0c422b817de10088165c30.html" target="element"> OpenLDAP </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-7ddce83067c54221a634e8d9a105cf5c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7ddce83067c54221a634e8d9a105cf5c.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element"> Flowable Work </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d9e8828f65854ebe83244294b0a789c8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d9e8828f65854ebe83244294b0a789c8.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-5efaaddcf1d640c3ac33086c00fbbe95.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5efaaddcf1d640c3ac33086c00fbbe95.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html" target="element"> git </a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c56eb064ad6949dfbe2657f291cc1c50.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c56eb064ad6949dfbe2657f291cc1c50.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6af07f3a8d81433cb8882393f1f2bc4f.html" target="element"> github.com </a> </td>
+																		<td> <a href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html" target="element"> git </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d09f11fdc4144336a3229d4f4da36bf6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d09f11fdc4144336a3229d4f4da36bf6.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d4d98a6dedb34730827fc88389aa1eeb.html" target="element"> FFrog &lt;&lt;Flowable Artifacts Repository&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f9927142dfb54cf6938aea18334d7b98.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f9927142dfb54cf6938aea18334d7b98.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d4d98a6dedb34730827fc88389aa1eeb.html" target="element"> FFrog &lt;&lt;Flowable Artifacts Repository&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-5aaf7f0740714c24aa0149b43436efdf.html" target="element"> JFrog </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-76a009d979154f9cb6eb285c94b6d552.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-76a009d979154f9cb6eb285c94b6d552.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-822925f951074f258e4f8ee45b6f8be8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-822925f951074f258e4f8ee45b6f8be8.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																		<td> <a href="../elements/id-418407202c3d4c7caaf190d67445fd00.html" target="element"> UIPath </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-26a4bdf649734ae0a5956b460d807880.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																		<td> <a href="../elements/id-eda738f9f1f646698bf21e046d9d296d.html" target="element"> Docker Desktop </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-85cce3ce46704ec1a7522eee6f9e03a9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-85cce3ce46704ec1a7522eee6f9e03a9.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																		<td> <a href="../elements/id-e2165814a061489e9d16ce1da4c1320b.html" target="element"> Archi </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c3d18fbc6e2a485b81a937b76593a20f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c3d18fbc6e2a485b81a937b76593a20f.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																		<td> <a href="../elements/id-25edc338c8c745bbb60ffa76a81c0523.html" target="element"> git </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f4ff32da461049ff91307575eb8a7b10.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f4ff32da461049ff91307575eb8a7b10.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cb65af7a18b4460381a172ec4dd641e6.html" target="element"> Neo4j Graph Database for Archimate RAG (NEO4J-RAG) </a> </td>
+																		<td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-da0a08453d024e5aad37db4c5ff07867.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-da0a08453d024e5aad37db4c5ff07867.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-ae37e32b7f0c422b817de10088165c30.html" target="element"> OpenLDAP </a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6ec2f2ef99584cb185aee9f35a488e1f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ec2f2ef99584cb185aee9f35a488e1f.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-ae37e32b7f0c422b817de10088165c30.html" target="element"> OpenLDAP </a> </td>
+																		<td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element"> Keycloack </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-498c8b64f4af48578ed40060f171498d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-498c8b64f4af48578ed40060f171498d.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element"> Keycloack </a> </td>
+																		<td> <a href="../elements/id-434699184ffc4300b450e8addbf54e9c.html" target="element"> B2C Portal </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6426dc29f22e4bf3b120b6568bc78403.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6426dc29f22e4bf3b120b6568bc78403.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-57c5005f14104b0a9a858c9776be343f.html" target="element"> Keycloack </a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3a15b6ec143b4a7ab5e022d0c69d6932.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a15b6ec143b4a7ab5e022d0c69d6932.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-edeb061fee57422da3eec13bd1d1fcb1.html" target="element"> Flowable Design </a> </td>
+																		<td> <a href="../elements/id-b30b55da6ded4306b369d65c1da2559a.html" target="element"> Flowable Work </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1244e1e8d7db41c29d8c3ba2893a2cd5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1244e1e8d7db41c29d8c3ba2893a2cd5.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element"> Cloud </a> </td>
+																		<td> <a href="../elements/id-edeb061fee57422da3eec13bd1d1fcb1.html" target="element"> Flowable Design </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7da00865116248229ce40fbdf40e35df.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7da00865116248229ce40fbdf40e35df.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element"> Cloud </a> </td>
+																		<td> <a href="../elements/id-11fa7fd06c91480b902fa7034225ad34.html" target="element"> Claude Sonnet </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c65c193f1b9341cfb7039ef5f5e9f2d5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c65c193f1b9341cfb7039ef5f5e9f2d5.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element"> Cloud </a> </td>
+																		<td> <a href="../elements/id-5aaf7f0740714c24aa0149b43436efdf.html" target="element"> JFrog </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-29dfae619396482fa09cc53615af9267.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-29dfae619396482fa09cc53615af9267.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-af9cab8c68e24adfa7bfc8bfd1f2e60d.html" target="element"> Cloud </a> </td>
+																		<td> <a href="../elements/id-6af07f3a8d81433cb8882393f1f2bc4f.html" target="element"> github.com </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a7a5efa02e9d412cb599366a8c18bd3e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a7a5efa02e9d412cb599366a8c18bd3e.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2e44e495f69a4d768fc6e8aead93d6cf.html" target="element"> UIPath &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-418407202c3d4c7caaf190d67445fd00.html" target="element"> UIPath </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a5d2c13659bf4fac8c017d0f80c5690c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a5d2c13659bf4fac8c017d0f80c5690c.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2e44e495f69a4d768fc6e8aead93d6cf.html" target="element"> UIPath &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																		<td> <a href="../elements/id-3bee5fa7610c48b7b9b50ea23f58f263.html" target="element"> Flowable Work &lt;&lt;cii-via-cip&gt;&gt; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1118b3dc515d41a493fa2a4b7c9acba6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1118b3dc515d41a493fa2a4b7c9acba6.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-2c7fc02405f6451183609123fb645637.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2c7fc02405f6451183609123fb645637.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9acd326c68524fcb9cd2dfa702501b65.html" target="element"> Archimate IA Repository (AREPO) </a> </td>
+																		<td> <a href="../elements/id-851b1a34529247ce984302e5358ebb86.html" target="element"> Archimate AI Repository </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-cc734cd24e4a4eb0aa92682fafcbcb15.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cc734cd24e4a4eb0aa92682fafcbcb15.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-9acd326c68524fcb9cd2dfa702501b65.html" target="element"> Archimate IA Repository (AREPO) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d6d2a7179b854d84a8fd8d5e8bc65622.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d6d2a7179b854d84a8fd8d5e8bc65622.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fc66ea245aa142dfa41f343e85c88aed.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fc66ea245aa142dfa41f343e85c88aed.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-43219dc55df84fa39029d9c2edbc11e0.html" target="element"> Archimate RAG System (ARAGS) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0d927080dffe4fdba3581e4ec9246d9a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d927080dffe4fdba3581e4ec9246d9a.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6f24d23b2e414fbb8c2748cc5b3835f7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-5f14aad3c61943cbabc8a91557624350.html" target="element"> Archimate IA Vizualization </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c2120ded44784a7589736c289fca3bb9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c2120ded44784a7589736c289fca3bb9.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-11fa7fd06c91480b902fa7034225ad34.html" target="element"> Claude Sonnet </a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

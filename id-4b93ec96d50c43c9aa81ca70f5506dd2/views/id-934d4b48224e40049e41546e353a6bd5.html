@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Cursor IDE</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Cursor IDE</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-934d4b48224e40049e41546e353a6bd5.png" alt="Cursor IDE" usemap="#id-934d4b48224e40049e41546e353a6bd5map"/>
+			   <map name="id-934d4b48224e40049e41546e353a6bd5map">
+				  		<area shape="rect" coords="731,10,871,90" href="../elements/id-758d68e4de88480ba485885325b80fc3.html"  target="element">
+				  		<area shape="rect" coords="731,250,871,330" href="../elements/id-cf4025a5f85b4be58c18742e89548ca4.html"  target="element">
+				  		<area shape="rect" coords="731,130,871,210" href="../elements/id-71ab507e48584c84bd6084ce1d9e8859.html"  target="element">
+				  		<area shape="rect" coords="551,130,691,210" href="../elements/id-9e6a181cea0e482f8a5fabd88d399509.html"  target="element">
+				  		<area shape="rect" coords="551,490,691,570" href="../elements/id-272ddf60b0be4f519442005b6eff996c.html"  target="element">
+				  		<area shape="rect" coords="551,250,691,330" href="../elements/id-d2621ca9b939471ab03271e24bdb2684.html"  target="element">
+				  		<area shape="rect" coords="551,10,691,90" href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html"  target="element">
+				  		<area shape="rect" coords="371,10,511,90" href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html"  target="element">
+				  		<area shape="rect" coords="371,370,511,450" href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html"  target="element">
+				  		<area shape="rect" coords="371,491,511,571" href="../elements/id-332349f25d994835aaadbea56329bcc6.html"  target="element">
+				  		<area shape="rect" coords="191,370,331,450" href="../elements/id-ed4e2d302fc8434dbf61d8418ab2478c.html"  target="element">
+				  		<area shape="rect" coords="191,10,331,90" href="../elements/id-1c1e95bac7e04f93bdbbeeddd4c72865.html"  target="element">
+				  		<area shape="rect" coords="191,130,331,210" href="../elements/id-8ef4824d08f448aaba6133bd1be738ed.html"  target="element">
+				  		<area shape="rect" coords="191,491,331,571" href="../elements/id-011d8bf45fa340e4b8d5eb972e15801f.html"  target="element">
+				  		<area shape="rect" coords="191,250,331,330" href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html"  target="element">
+				  		<area shape="rect" coords="11,370,151,450" href="../elements/id-fcc625e780814da9b60f71df53b90f59.html"  target="element">
+				  		<area shape="rect" coords="11,250,151,330" href="../elements/id-920669abf60443499d4abe2809f20aa6.html"  target="element">
+				  		<area shape="rect" coords="10,490,151,571" href="../elements/id-4c3255e1b835447293bf0119afb80f53.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+											    <td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-920669abf60443499d4abe2809f20aa6.html" target="element"> Windows11 Operating System </a> </td>
+											    <td> <a href="../elements/id-920669abf60443499d4abe2809f20aa6.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-fcc625e780814da9b60f71df53b90f59.html" target="element"> Workplace Operating System </a> </td>
+											    <td> <a href="../elements/id-fcc625e780814da9b60f71df53b90f59.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html" target="element"> Cursor IDE </a> </td>
+											    <td> <a href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-011d8bf45fa340e4b8d5eb972e15801f.html" target="element"> Workplace User Folder </a> </td>
+											    <td> <a href="../elements/id-011d8bf45fa340e4b8d5eb972e15801f.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8ef4824d08f448aaba6133bd1be738ed.html" target="element"> Cursor IDE 1.1.2 </a> </td>
+											    <td> <a href="../elements/id-8ef4824d08f448aaba6133bd1be738ed.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1c1e95bac7e04f93bdbbeeddd4c72865.html" target="element"> Cursor IDE Technology Service </a> </td>
+											    <td> <a href="../elements/id-1c1e95bac7e04f93bdbbeeddd4c72865.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-ed4e2d302fc8434dbf61d8418ab2478c.html" target="element"> \AppData\Roaming\Cursor </a> </td>
+											    <td> <a href="../elements/id-ed4e2d302fc8434dbf61d8418ab2478c.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+											    <td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element"> CII via CIP Project Directories </a> </td>
+											    <td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html" target="element"> CII via CIP Development Source Code </a> </td>
+											    <td> <a href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html" target="element"> git </a> </td>
+											    <td> <a href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d2621ca9b939471ab03271e24bdb2684.html" target="element"> git </a> </td>
+											    <td> <a href="../elements/id-d2621ca9b939471ab03271e24bdb2684.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-272ddf60b0be4f519442005b6eff996c.html" target="element"> Workplace Program Files </a> </td>
+											    <td> <a href="../elements/id-272ddf60b0be4f519442005b6eff996c.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9e6a181cea0e482f8a5fabd88d399509.html" target="element"> git windows 2.48 </a> </td>
+											    <td> <a href="../elements/id-9e6a181cea0e482f8a5fabd88d399509.html" target="element" class="i18n-elementtype-SystemSoftware">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-71ab507e48584c84bd6084ce1d9e8859.html" target="element"> github </a> </td>
+											    <td> <a href="../elements/id-71ab507e48584c84bd6084ce1d9e8859.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-cf4025a5f85b4be58c18742e89548ca4.html" target="element"> github.com </a> </td>
+											    <td> <a href="../elements/id-cf4025a5f85b4be58c18742e89548ca4.html" target="element" class="i18n-elementtype-Node">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-758d68e4de88480ba485885325b80fc3.html" target="element"> https://github.com/{user|project}/{remote project repositories} </a> </td>
+											    <td> <a href="../elements/id-758d68e4de88480ba485885325b80fc3.html" target="element" class="i18n-elementtype-TechnologyService">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-a2f2b3a268404b669e7d3e63b6d76070.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a2f2b3a268404b669e7d3e63b6d76070.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-fcc625e780814da9b60f71df53b90f59.html" target="element"> Workplace Operating System </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-95b100cd00f44704be3e76235ba2b15e.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e81f3782542046f68998327add73e934.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e81f3782542046f68998327add73e934.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-011d8bf45fa340e4b8d5eb972e15801f.html" target="element"> Workplace User Folder </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-588ea37d04c04503a30f1516cd89b0d6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-588ea37d04c04503a30f1516cd89b0d6.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4c3255e1b835447293bf0119afb80f53.html" target="element"> Workplace CII-via-CIP Computer </a> </td>
+																		<td> <a href="../elements/id-272ddf60b0be4f519442005b6eff996c.html" target="element"> Workplace Program Files </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f8cf17b3dcbd48da95c07066b79792be.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f8cf17b3dcbd48da95c07066b79792be.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-920669abf60443499d4abe2809f20aa6.html" target="element"> Windows11 Operating System </a> </td>
+																		<td> <a href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html" target="element"> Cursor IDE </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c26f9a69fe074defa919ea35047fd7ff.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c26f9a69fe074defa919ea35047fd7ff.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-fcc625e780814da9b60f71df53b90f59.html" target="element"> Workplace Operating System </a> </td>
+																		<td> <a href="../elements/id-920669abf60443499d4abe2809f20aa6.html" target="element"> Windows11 Operating System </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0d02b77354de482384f91fcb23fce7e3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0d02b77354de482384f91fcb23fce7e3.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html" target="element"> Cursor IDE </a> </td>
+																		<td> <a href="../elements/id-8ef4824d08f448aaba6133bd1be738ed.html" target="element"> Cursor IDE 1.1.2 </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-916ac430991e4f8d94b317ed4d1ede8d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-916ac430991e4f8d94b317ed4d1ede8d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-011d8bf45fa340e4b8d5eb972e15801f.html" target="element"> Workplace User Folder </a> </td>
+																		<td> <a href="../elements/id-ed4e2d302fc8434dbf61d8418ab2478c.html" target="element"> \AppData\Roaming\Cursor </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-19f05f7cb63a4dd8996c4d814e7cfbeb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-19f05f7cb63a4dd8996c4d814e7cfbeb.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8ef4824d08f448aaba6133bd1be738ed.html" target="element"> Cursor IDE 1.1.2 </a> </td>
+																		<td> <a href="../elements/id-1c1e95bac7e04f93bdbbeeddd4c72865.html" target="element"> Cursor IDE Technology Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-dff488262e374b9cb64e6dfdf42d3abc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dff488262e374b9cb64e6dfdf42d3abc.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1c1e95bac7e04f93bdbbeeddd4c72865.html" target="element"> Cursor IDE Technology Service </a> </td>
+																		<td> <a href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html" target="element"> CII via CIP Development Source Code </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-cd7ac2ad7a0c4e9c9ec7eca7f1ca7b7c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cd7ac2ad7a0c4e9c9ec7eca7f1ca7b7c.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-ed4e2d302fc8434dbf61d8418ab2478c.html" target="element"> \AppData\Roaming\Cursor </a> </td>
+																		<td> <a href="../elements/id-42ab3d950b17472aa5147f3dd3a7f5a7.html" target="element"> Cursor IDE </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9870f8a2754a45bdb8eb09499e9f6bec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9870f8a2754a45bdb8eb09499e9f6bec.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-332349f25d994835aaadbea56329bcc6.html" target="element"> Workplace Computer Local Storage for Git Repositories </a> </td>
+																		<td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element"> CII via CIP Project Directories </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-14e3b1063741443581efb637cff0f9a1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-14e3b1063741443581efb637cff0f9a1.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element"> CII via CIP Project Directories </a> </td>
+																		<td> <a href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html" target="element"> CII via CIP Development Source Code </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0c78d2da94af4ab5ba0efdd8e26717a9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0c78d2da94af4ab5ba0efdd8e26717a9.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html" target="element"> git </a> </td>
+																		<td> <a href="../elements/id-758d68e4de88480ba485885325b80fc3.html" target="element"> https://github.com/{user|project}/{remote project repositories} </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0182863b602040e4b62d5272b24bbe49.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0182863b602040e4b62d5272b24bbe49.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html" target="element"> git </a> </td>
+																		<td> <a href="../elements/id-2458dab59a734ee5ba8f185a45f496f7.html" target="element"> CII via CIP Development Source Code </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-15fa5416d6374c1ea781a27fa61f4da4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-15fa5416d6374c1ea781a27fa61f4da4.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d2621ca9b939471ab03271e24bdb2684.html" target="element"> git </a> </td>
+																		<td> <a href="../elements/id-9e6a181cea0e482f8a5fabd88d399509.html" target="element"> git windows 2.48 </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3505dccb89bf49eba37b6fe5b3abdcc0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3505dccb89bf49eba37b6fe5b3abdcc0.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-272ddf60b0be4f519442005b6eff996c.html" target="element"> Workplace Program Files </a> </td>
+																		<td> <a href="../elements/id-d2621ca9b939471ab03271e24bdb2684.html" target="element"> git </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4aa8dc2a04c14840ae6e6d34053e8381.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4aa8dc2a04c14840ae6e6d34053e8381.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9e6a181cea0e482f8a5fabd88d399509.html" target="element"> git windows 2.48 </a> </td>
+																		<td> <a href="../elements/id-2d6116067adf4e039735b651c46a5cc9.html" target="element"> git </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0fd0a7836ca149c4bd92ac91206e202f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0fd0a7836ca149c4bd92ac91206e202f.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-71ab507e48584c84bd6084ce1d9e8859.html" target="element"> github </a> </td>
+																		<td> <a href="../elements/id-758d68e4de88480ba485885325b80fc3.html" target="element"> https://github.com/{user|project}/{remote project repositories} </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ece328fe401d4bf78d2d2c9f96f1b051.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ece328fe401d4bf78d2d2c9f96f1b051.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cf4025a5f85b4be58c18742e89548ca4.html" target="element"> github.com </a> </td>
+																		<td> <a href="../elements/id-71ab507e48584c84bd6084ce1d9e8859.html" target="element"> github </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

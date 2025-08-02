@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Michel Wicky</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Michel Wicky</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DataObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DataObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">dn: cn=Michel Wicky,ou=people,ou=cii-via-cip,dc=inoshift,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: Michel Wicky
+sn: Wicky
+givenName: Michel
+mail: mwi@inoshift.com
+uid: mwi
+userPassword:: dGVzdA==</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-a4a2a9d30fe64976a6708cd755682f60">
+																	<td><a href="../views/id-a4a2a9d30fe64976a6708cd755682f60.html" target="view" title="CII via CIP - Application LDAP Information Structure"> CII via CIP - Application LDAP Information Structure </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-cfd74a5d476d452bad9d444cfe3eb375">
+																	<td><a href="../views/id-cfd74a5d476d452bad9d444cfe3eb375.html" target="view" title="CII via CIP - LDAP Cross Layer Mapping"> CII via CIP - LDAP Cross Layer Mapping </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-5d6dca1436f447c2848eab1f07501c2c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-a58213c9d1f140158ade529de96856b8.html" target="element"> Michel Wicky</a></td>
+											<td><a href="../elements/id-ea443a2ce66b461bb8a73a43a6087e8e.html" target="element"> inetOrgPerson</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-41d17cd020f64bd292a6b08f0822b138.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-e643a2403e404e0f895fcdab27e17d91.html" target="element"> developers</a></td>
+											<td><a href="../elements/id-a58213c9d1f140158ade529de96856b8.html" target="element"> Michel Wicky</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ec763accfc7b41fd874a0b99b6b40e28.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-9b0b93f0749f4002b9385ad47df5d009.html" target="element"> Individuals</a></td>
+											<td><a href="../elements/id-a58213c9d1f140158ade529de96856b8.html" target="element"> Michel Wicky</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f79bb82efe47432cade1c31514727064.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-be62f0657dce445ba8b6728d34f218bf.html" target="element"> people</a></td>
+											<td><a href="../elements/id-a58213c9d1f140158ade529de96856b8.html" target="element"> Michel Wicky</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

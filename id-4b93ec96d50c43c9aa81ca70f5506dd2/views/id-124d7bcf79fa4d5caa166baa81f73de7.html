@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Archimate RAG Loader (ARAGL) - Application Structure (L1)</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Archimate RAG Loader (ARAGL) - Application Structure (L1)</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-124d7bcf79fa4d5caa166baa81f73de7.png" alt="Archimate RAG Loader (ARAGL) - Application Structure (L1)" usemap="#id-124d7bcf79fa4d5caa166baa81f73de7map"/>
+			   <map name="id-124d7bcf79fa4d5caa166baa81f73de7map">
+				  		<area shape="rect" coords="191,650,331,730" href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html"  target="element">
+				  		<area shape="rect" coords="191,770,331,850" href="../elements/id-101fb9c23ab541cdb94b42f8952908ef.html"  target="element">
+				  		<area shape="rect" coords="1760,530,1900,610" href="../elements/id-adaafb1f4e254da4beed7ff6fe5ad3de.html"  target="element">
+				  		<area shape="rect" coords="1600,530,1740,610" href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html"  target="element">
+				  		<area shape="rect" coords="1760,650,1900,730" href="../elements/id-32fad545a35d44e6b7e947ce470f5e7c.html"  target="element">
+				  		<area shape="rect" coords="1600,650,1740,730" href="../elements/id-68f6c01b540640c4915b16df2728e7c6.html"  target="element">
+				  		<area shape="rect" coords="1600,770,1900,850" href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html"  target="element">
+				  		<area shape="rect" coords="920,770,1380,850" href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html"  target="element">
+				  		<area shape="rect" coords="380,770,520,850" href="../elements/id-e02d487dd0164d58a186ce6f107ea1ec.html"  target="element">
+				  		<area shape="rect" coords="740,770,880,850" href="../elements/id-97d035eb48fd4248b88d791f9c174db7.html"  target="element">
+				  		<area shape="rect" coords="560,770,700,850" href="../elements/id-3ff58358cc354aefa6e4be52efcb488f.html"  target="element">
+				  		<area shape="rect" coords="1420,770,1560,850" href="../elements/id-5f0c68ff9b4f4007a206d75f0fea6dca.html"  target="element">
+				  		<area shape="rect" coords="10,890,1900,970" href="../elements/id-a81675514b4740e08c89086934ac8b4f.html"  target="element">
+				  		<area shape="rect" coords="10,1010,1900,1090" href="../elements/id-19f12734ccc64d5a866ae3a06f4a5952.html"  target="element">
+				  		<area shape="rect" coords="10,1130,1900,1210" href="../elements/id-f8dd9f5331484357be736283cae233f1.html"  target="element">
+				  		<area shape="rect" coords="10,1250,1900,1330" href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html"  target="element">
+				  		<area shape="rect" coords="1240,650,1380,730" href="../elements/id-86a9e9f0612345d199014f5d368d48b8.html"  target="element">
+				  		<area shape="rect" coords="920,650,1060,730" href="../elements/id-b7273665dc904f27ab5bd9c957d4a417.html"  target="element">
+				  		<area shape="rect" coords="1080,650,1220,730" href="../elements/id-bbff39893b84415f840ebbafc2abffe6.html"  target="element">
+				  		<area shape="rect" coords="380,650,520,730" href="../elements/id-92247568118447a3842cf25544ae445e.html"  target="element">
+				  		<area shape="rect" coords="740,650,880,730" href="../elements/id-e2489a2d3c70445e9bd0e9835119b2a7.html"  target="element">
+				  		<area shape="rect" coords="560,650,700,730" href="../elements/id-251ae145659a4afda0af5905c4a22b61.html"  target="element">
+				  		<area shape="rect" coords="1420,650,1560,730" href="../elements/id-e104182adb0c4c748c94b3aeec1daca6.html"  target="element">
+				  		<area shape="rect" coords="10,650,150,730" href="../elements/id-170aa3a3bce64e26a4e4538fbfd2c603.html"  target="element">
+				  		<area shape="rect" coords="10,130,150,610" href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html"  target="element">
+				  		<area shape="rect" coords="920,430,1060,510" href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html"  target="element">
+				  		<area shape="rect" coords="10,10,150,90" href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html"  target="element">
+				  		<area shape="rect" coords="191,130,331,210" href="../elements/id-eb1f226ba6394533aee05967adde0969.html"  target="element">
+				  		<area shape="rect" coords="1420,530,1560,610" href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html"  target="element">
+				  		<area shape="rect" coords="740,330,880,410" href="../elements/id-d589a84482f2440badbb6352bbaabfea.html"  target="element">
+				  		<area shape="rect" coords="560,230,700,310" href="../elements/id-1509a3a870b142d38b930217be618f44.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element"> ARAGL - Archimate Parser </a> </td>
+											    <td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element"> ARAGL - Data Transformer </a> </td>
+											    <td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element"> ARAGL - Neo4j Enhanced Loader </a> </td>
+											    <td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+											    <td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+											    <td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+											    <td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+											    <td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-170aa3a3bce64e26a4e4538fbfd2c603.html" target="element"> archimateLoaderOrchestrator.js </a> </td>
+											    <td> <a href="../elements/id-170aa3a3bce64e26a4e4538fbfd2c603.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e104182adb0c4c748c94b3aeec1daca6.html" target="element"> neo4jLoader.js </a> </td>
+											    <td> <a href="../elements/id-e104182adb0c4c748c94b3aeec1daca6.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-251ae145659a4afda0af5905c4a22b61.html" target="element"> archimateParser.js </a> </td>
+											    <td> <a href="../elements/id-251ae145659a4afda0af5905c4a22b61.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e2489a2d3c70445e9bd0e9835119b2a7.html" target="element"> archimateTransformer.js </a> </td>
+											    <td> <a href="../elements/id-e2489a2d3c70445e9bd0e9835119b2a7.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-92247568118447a3842cf25544ae445e.html" target="element"> archimateXmlValidator.js </a> </td>
+											    <td> <a href="../elements/id-92247568118447a3842cf25544ae445e.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-bbff39893b84415f840ebbafc2abffe6.html" target="element"> embeddingEnricher.js </a> </td>
+											    <td> <a href="../elements/id-bbff39893b84415f840ebbafc2abffe6.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b7273665dc904f27ab5bd9c957d4a417.html" target="element"> indexEnricher.js </a> </td>
+											    <td> <a href="../elements/id-b7273665dc904f27ab5bd9c957d4a417.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-86a9e9f0612345d199014f5d368d48b8.html" target="element"> ragEnricher.js </a> </td>
+											    <td> <a href="../elements/id-86a9e9f0612345d199014f5d368d48b8.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element"> CII via CIP Project Directories </a> </td>
+											    <td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f8dd9f5331484357be736283cae233f1.html" target="element"> cii-via-cip-archimate-ia-repository </a> </td>
+											    <td> <a href="../elements/id-f8dd9f5331484357be736283cae233f1.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-19f12734ccc64d5a866ae3a06f4a5952.html" target="element"> archimate-ia-loader </a> </td>
+											    <td> <a href="../elements/id-19f12734ccc64d5a866ae3a06f4a5952.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+											    <td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-5f0c68ff9b4f4007a206d75f0fea6dca.html" target="element"> loader </a> </td>
+											    <td> <a href="../elements/id-5f0c68ff9b4f4007a206d75f0fea6dca.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ff58358cc354aefa6e4be52efcb488f.html" target="element"> parser </a> </td>
+											    <td> <a href="../elements/id-3ff58358cc354aefa6e4be52efcb488f.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-97d035eb48fd4248b88d791f9c174db7.html" target="element"> transformer </a> </td>
+											    <td> <a href="../elements/id-97d035eb48fd4248b88d791f9c174db7.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e02d487dd0164d58a186ce6f107ea1ec.html" target="element"> validator </a> </td>
+											    <td> <a href="../elements/id-e02d487dd0164d58a186ce6f107ea1ec.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element"> enrichment </a> </td>
+											    <td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html" target="element"> utils </a> </td>
+											    <td> <a href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-68f6c01b540640c4915b16df2728e7c6.html" target="element"> logger.js </a> </td>
+											    <td> <a href="../elements/id-68f6c01b540640c4915b16df2728e7c6.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-32fad545a35d44e6b7e947ce470f5e7c.html" target="element"> xmlValidationReport.js </a> </td>
+											    <td> <a href="../elements/id-32fad545a35d44e6b7e947ce470f5e7c.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+											    <td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-adaafb1f4e254da4beed7ff6fe5ad3de.html" target="element"> ARAGL - XML Reporting </a> </td>
+											    <td> <a href="../elements/id-adaafb1f4e254da4beed7ff6fe5ad3de.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-101fb9c23ab541cdb94b42f8952908ef.html" target="element"> extractor </a> </td>
+											    <td> <a href="../elements/id-101fb9c23ab541cdb94b42f8952908ef.html" target="element" class="i18n-elementtype-Device">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html" target="element"> archimateExtractor.js </a> </td>
+											    <td> <a href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html" target="element" class="i18n-elementtype-Artifact">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-5b92f090c3c04dddbfb47c7953a024ba.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5b92f090c3c04dddbfb47c7953a024ba.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element"> ARAGL - Archimate Parser </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4e7f7df7dcfe46f588be0191a0f88ccf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4e7f7df7dcfe46f588be0191a0f88ccf.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element"> ARAGL - Data Transformer </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-51b36acf5b834bcbaa50448a0059a787.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-51b36acf5b834bcbaa50448a0059a787.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element"> ARAGL - Neo4j Enhanced Loader </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-6169e78fa5ae439abc30e19aac5f017f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6169e78fa5ae439abc30e19aac5f017f.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-af785c928c824b9b8efcecdc864ad63c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-af785c928c824b9b8efcecdc864ad63c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-cd051fde7e794b068c670e71da52f01c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-cd051fde7e794b068c670e71da52f01c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element"> ARAGL - Archimate Parser </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-fc6dbcf6f2994b6783dcc75af7c66ed5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fc6dbcf6f2994b6783dcc75af7c66ed5.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element"> ARAGL - Neo4j Enhanced Loader </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1b52a92eaeb34b18ae967c996e2a51f3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1b52a92eaeb34b18ae967c996e2a51f3.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-520b06c8a73e4d40ba1d0487acd366d6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-520b06c8a73e4d40ba1d0487acd366d6.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c05c44f5237948aeba4c0fe0ed16f0f2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c05c44f5237948aeba4c0fe0ed16f0f2.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c27039ab9e6a400098a1744b8c6bc7a9.html" target="element"> Archimate RAG Loader (ARAGL) </a> </td>
+																		<td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element"> ARAGL - Data Transformer </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-6a9ec28ae99242abb97fbcee42124ebe.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6a9ec28ae99242abb97fbcee42124ebe.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b6976fd995674e488f48a5bf60e31344.html" target="element"> 3 </a> </td>
+																		<td> <a href="../elements/id-b6976fd995674e488f48a5bf60e31344.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element"> ARAGL - Data Transformer </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-11b21085c1f944789dca6c694986cd7d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-11b21085c1f944789dca6c694986cd7d.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-adaafb1f4e254da4beed7ff6fe5ad3de.html" target="element"> ARAGL - XML Reporting </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-67417e0806df41f087fa588b8b329d37.html" target="element"> 4 </a> </td>
+																		<td> <a href="../elements/id-67417e0806df41f087fa588b8b329d37.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8728f1b9f4734b62a9228f0a7a6731e9.html" target="element"> 2 </a> </td>
+																		<td> <a href="../elements/id-8728f1b9f4734b62a9228f0a7a6731e9.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element"> ARAGL - Archimate Parser </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e7913a3165584e008b4050ce66140f31.html" target="element"> 1 </a> </td>
+																		<td> <a href="../elements/id-e7913a3165584e008b4050ce66140f31.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6d15785551964a559c14f3ae3c3fa2af.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6d15785551964a559c14f3ae3c3fa2af.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-91bfc0d7131740c48cf5c2b375f834e5.html" target="element"> 5 </a> </td>
+																		<td> <a href="../elements/id-91bfc0d7131740c48cf5c2b375f834e5.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																		<td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element"> ARAGL - Neo4j Enhanced Loader </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b6b9b69b31cd4951baebe0fa4f2a8532.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b6b9b69b31cd4951baebe0fa4f2a8532.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-170aa3a3bce64e26a4e4538fbfd2c603.html" target="element"> archimateLoaderOrchestrator.js </a> </td>
+																		<td> <a href="../elements/id-c41d45995f0a4b4abba3434384243b7f.html" target="element"> ARAGL - Orchestrator </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1e345c6e9a224af49d38e9e4f4a2a1c7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1e345c6e9a224af49d38e9e4f4a2a1c7.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e104182adb0c4c748c94b3aeec1daca6.html" target="element"> neo4jLoader.js </a> </td>
+																		<td> <a href="../elements/id-d2f5c38f1e7547319f49a7da628e01ba.html" target="element"> ARAGL - Neo4j Enhanced Loader </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ceea6cf68a1a4fb1a148a85bdef7d8e4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ceea6cf68a1a4fb1a148a85bdef7d8e4.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-251ae145659a4afda0af5905c4a22b61.html" target="element"> archimateParser.js </a> </td>
+																		<td> <a href="../elements/id-1509a3a870b142d38b930217be618f44.html" target="element"> ARAGL - Archimate Parser </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d8548427b2fc43ec9fb7e2f50e118979.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d8548427b2fc43ec9fb7e2f50e118979.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e2489a2d3c70445e9bd0e9835119b2a7.html" target="element"> archimateTransformer.js </a> </td>
+																		<td> <a href="../elements/id-d589a84482f2440badbb6352bbaabfea.html" target="element"> ARAGL - Data Transformer </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f51d9179285d45a0984276499145e457.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f51d9179285d45a0984276499145e457.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-92247568118447a3842cf25544ae445e.html" target="element"> archimateXmlValidator.js </a> </td>
+																		<td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-71c1425c611f4a618550928601282d7a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-71c1425c611f4a618550928601282d7a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bbff39893b84415f840ebbafc2abffe6.html" target="element"> embeddingEnricher.js </a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b77ed8cf09ac47269617e88928b28e0f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b77ed8cf09ac47269617e88928b28e0f.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b7273665dc904f27ab5bd9c957d4a417.html" target="element"> indexEnricher.js </a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a50e464a09d049649e8e2c987a969420.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a50e464a09d049649e8e2c987a969420.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-86a9e9f0612345d199014f5d368d48b8.html" target="element"> ragEnricher.js </a> </td>
+																		<td> <a href="../elements/id-72abf3d3766e49f99393de04d5d8a058.html" target="element"> ARAGL - Embedding Enricher </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-bdc6b47e28c94ccab0b6dbed87a3a09d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-bdc6b47e28c94ccab0b6dbed87a3a09d.html" target="element" class="i18n-elementtype-SpecializationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-cef01d7c804f4182805692f1b5119ac5.html" target="element"> CII via CIP Project Directories </a> </td>
+																		<td> <a href="../elements/id-f8dd9f5331484357be736283cae233f1.html" target="element"> cii-via-cip-archimate-ia-repository </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-099b8f6c26624a949949491f86859260.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-099b8f6c26624a949949491f86859260.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f8dd9f5331484357be736283cae233f1.html" target="element"> cii-via-cip-archimate-ia-repository </a> </td>
+																		<td> <a href="../elements/id-19f12734ccc64d5a866ae3a06f4a5952.html" target="element"> archimate-ia-loader </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-917a8f7424b342d097d0c8e824123ea9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-917a8f7424b342d097d0c8e824123ea9.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-19f12734ccc64d5a866ae3a06f4a5952.html" target="element"> archimate-ia-loader </a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-603fe62155344bfcbb0e1377358e0356.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-603fe62155344bfcbb0e1377358e0356.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-101fb9c23ab541cdb94b42f8952908ef.html" target="element"> extractor </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-aa5c9fddcf814ec2a7a2e82ddeabe516.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-aa5c9fddcf814ec2a7a2e82ddeabe516.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html" target="element"> utils </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-6ad9c908f3a74739984d2641cb5915d5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6ad9c908f3a74739984d2641cb5915d5.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-170aa3a3bce64e26a4e4538fbfd2c603.html" target="element"> archimateLoaderOrchestrator.js </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-396cea023c1c419d830a3c1732601c2c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-396cea023c1c419d830a3c1732601c2c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-3ff58358cc354aefa6e4be52efcb488f.html" target="element"> parser </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-dffa959038d749509b5da2898fad214c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-dffa959038d749509b5da2898fad214c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-e02d487dd0164d58a186ce6f107ea1ec.html" target="element"> validator </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5ee34b9ff8824bcba95d6e6a9d9429f8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5ee34b9ff8824bcba95d6e6a9d9429f8.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-5f0c68ff9b4f4007a206d75f0fea6dca.html" target="element"> loader </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f871431123044c649dbffe7242c1f0cb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f871431123044c649dbffe7242c1f0cb.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-97d035eb48fd4248b88d791f9c174db7.html" target="element"> transformer </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-8f5f9938592b4a6395898444b5070a03.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8f5f9938592b4a6395898444b5070a03.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-a81675514b4740e08c89086934ac8b4f.html" target="element"> scripts </a> </td>
+																		<td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element"> enrichment </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ee166c3b18b344d4b37048d903d82dec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-ee166c3b18b344d4b37048d903d82dec.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-5f0c68ff9b4f4007a206d75f0fea6dca.html" target="element"> loader </a> </td>
+																		<td> <a href="../elements/id-e104182adb0c4c748c94b3aeec1daca6.html" target="element"> neo4jLoader.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3218199851d44536a13455e26a978c37.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3218199851d44536a13455e26a978c37.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ff58358cc354aefa6e4be52efcb488f.html" target="element"> parser </a> </td>
+																		<td> <a href="../elements/id-251ae145659a4afda0af5905c4a22b61.html" target="element"> archimateParser.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a497080e52fe4991a71eb40594d6d97c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-a497080e52fe4991a71eb40594d6d97c.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-97d035eb48fd4248b88d791f9c174db7.html" target="element"> transformer </a> </td>
+																		<td> <a href="../elements/id-e2489a2d3c70445e9bd0e9835119b2a7.html" target="element"> archimateTransformer.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3a0c06e43d7f4c3b96471321e276d087.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a0c06e43d7f4c3b96471321e276d087.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e02d487dd0164d58a186ce6f107ea1ec.html" target="element"> validator </a> </td>
+																		<td> <a href="../elements/id-92247568118447a3842cf25544ae445e.html" target="element"> archimateXmlValidator.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-79a4368b13bf43c1abe28215862a0601.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-79a4368b13bf43c1abe28215862a0601.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element"> enrichment </a> </td>
+																		<td> <a href="../elements/id-86a9e9f0612345d199014f5d368d48b8.html" target="element"> ragEnricher.js </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5bb0d71e33fa4b68bfb73228c49cd6e7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-5bb0d71e33fa4b68bfb73228c49cd6e7.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element"> enrichment </a> </td>
+																		<td> <a href="../elements/id-bbff39893b84415f840ebbafc2abffe6.html" target="element"> embeddingEnricher.js </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f44e1c4d0b994dc39ab42e0b02b40125.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f44e1c4d0b994dc39ab42e0b02b40125.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c97c90c9935542b3b7a36dac42310e67.html" target="element"> enrichment </a> </td>
+																		<td> <a href="../elements/id-b7273665dc904f27ab5bd9c957d4a417.html" target="element"> indexEnricher.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-7666337f9d16445db20dfabf6668288b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7666337f9d16445db20dfabf6668288b.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html" target="element"> utils </a> </td>
+																		<td> <a href="../elements/id-68f6c01b540640c4915b16df2728e7c6.html" target="element"> logger.js </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e0bdeea264944ffeb38738b70f1647c1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e0bdeea264944ffeb38738b70f1647c1.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-4d81290eb6e44fdb9838c57ed340841a.html" target="element"> utils </a> </td>
+																		<td> <a href="../elements/id-32fad545a35d44e6b7e947ce470f5e7c.html" target="element"> xmlValidationReport.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-7eb8d41efdea4429b81dd670e82f30f0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7eb8d41efdea4429b81dd670e82f30f0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-68f6c01b540640c4915b16df2728e7c6.html" target="element"> logger.js </a> </td>
+																		<td> <a href="../elements/id-e1115b7295ef4c0ca5243a92bcd7b420.html" target="element"> ARAGL - Logging </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-50e0a6851840470dbb2acfbb47eba80d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-50e0a6851840470dbb2acfbb47eba80d.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-32fad545a35d44e6b7e947ce470f5e7c.html" target="element"> xmlValidationReport.js </a> </td>
+																		<td> <a href="../elements/id-adaafb1f4e254da4beed7ff6fe5ad3de.html" target="element"> ARAGL - XML Reporting </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-fa361abe795642fd8d2724aec10a9165.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fa361abe795642fd8d2724aec10a9165.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-101fb9c23ab541cdb94b42f8952908ef.html" target="element"> extractor </a> </td>
+																		<td> <a href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html" target="element"> archimateExtractor.js </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8707981d1d5b40de911183c3debf11ee.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-8707981d1d5b40de911183c3debf11ee.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html" target="element"> archimateExtractor.js </a> </td>
+																		<td> <a href="../elements/id-eb1f226ba6394533aee05967adde0969.html" target="element"> ARAGL - Extractor </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-03045fbff73f4cf881b4bd53e219e7ff.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-03045fbff73f4cf881b4bd53e219e7ff.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-beb7ed7b100f43bea95574eb85de767d.html" target="element"> archimateExtractor.js </a> </td>
+																		<td> <a href="../elements/id-92247568118447a3842cf25544ae445e.html" target="element"> archimateXmlValidator.js </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

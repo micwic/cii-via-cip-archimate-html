@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IntelliJ</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IntelliJ</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationComponent"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationComponent" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-236dc6969c5747ddac6d4e42ac97a143">
+																	<td><a href="../views/id-236dc6969c5747ddac6d4e42ac97a143.html" target="view" title="A3.2 CII via CIP Flowable Customization Software Factory Setup"> A3.2 CII via CIP Flowable Customization Software Factory Setup </a></td>
+																	<td><span class="i18n-viewpoint-layered" /></td>
+																</tr><tr id="used-in-views-id-a57639114c7a4be9a02a2966df372bd7">
+																	<td><a href="../views/id-a57639114c7a4be9a02a2966df372bd7.html" target="view" title="openLDAP Build &amp; Run &amp; Use"> openLDAP Build &amp; Run &amp; Use </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-9ec04b3904974ab894fa7c8b0b5cf817">
+																	<td><a href="../views/id-9ec04b3904974ab894fa7c8b0b5cf817.html" target="view" title="Neo4j Build &amp; Run &amp; Use"> Neo4j Build &amp; Run &amp; Use </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-e1b322e709f748fdb3b1634af0cd6f37.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+											<td><a href="../elements/id-5b392fdde17440f191a342bedaf285df.html" target="element"> Flowable Suite Configuration Settings</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d812b36072f44fbbb64b0bb19f2419eb.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+											<td><a href="../elements/id-dfee71df55e340a6a77c33befc3ebfe8.html" target="element"> IntelliJ - UI</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-5b2d94c354604e5e97f376501ac111d9.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-43090e520249409c8ca0ea8c7a7635c3.html" target="element"> Deployment Tools</a></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-41d16805e14443c89637530ccb62fc53.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-f624c0e7de1a486e947aef5edc00c31b.html" target="element"> IntelliJ</a></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9280310678d54a879c407cdba1b92083.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-5d87e2f3ee4a4ad6b3b810a8a86ce81d.html" target="element"> Maven</a></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-9e27c1f6411c403995838a39922adaee.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-781e67e1881b4db0ab3820cb72498c2c.html" target="element"> docker compose up -d</a></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-668c0796bf834fa3adc8143bfffddd0a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-dd23b28e619940f0a0f564a306a5210c.html" target="element"> Windows 11 Applications</a></td>
+											<td><a href="../elements/id-0cf299b5c5f94434b9e660bc21de878b.html" target="element"> IntelliJ</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

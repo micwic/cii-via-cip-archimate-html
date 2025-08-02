@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>FlowableFlowAppOptions</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>FlowableFlowAppOptions</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DataObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DataObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">FlowableFlowAppOptions is an application data object that represents the configuration settings for a Flowable Flow App. It is defined as an intersection type (combining FlowableCustomViewOptions and FlowableFlowAppProps) which ensures that any object of this type contains both the common custom view options and the specific properties required for the Flow App. 
+
+Here&#8217;s how it is used in different contexts:
+
+1. **As a Type:**  
+   FlowableFlowAppOptions defines a contract for the properties expected by components like FlowableFlowApp. It ensures that any object adhering to this type includes all the necessary settings&#8212;both generic view options (from FlowableCustomViewOptions) and specific Flow App properties (from FlowableFlowAppProps).
+
+2. **As Component Parameters (Props):**  
+   When you use FlowableFlowAppOptions as the type for the props of a component, it enforces that the component receives a properly structured configuration object. For example, in FlowableFlowApp, the props are of type CustomViewProps&lt;FlowableFlowAppOptions&gt;, meaning that the component expects all the fields defined in FlowableFlowAppOptions (plus optionally an updateSubject).
+
+3. **As Content for updateSubject in RxJS:**  
+   The updateSubject is an RxJS Subject that can emit new FlowableFlowAppOptions values. When an update occurs (e.g., a user action changes the flowAppId), updateSubject emits a new object containing the updated properties. The custom hook (useCustomViewSubject) listens to these emissions and merges the new values with the initial ones, ensuring that the component&#8217;s state reflects the latest configuration.
+
+4. **As the Data Structure for useState in a Custom Hook:**  
+   Inside the custom hook useCustomViewSubject, the state (viewProps) is initialized using useState with an initial object of type FlowableFlowAppOptions (derived from the other props). Then, whenever updateSubject emits a new update, the hook updates the state using setInternaProps({ ...others, ...updatedProps }). This process allows the component to re-render with the new FlowableFlowAppOptions whenever there&#8217;s a dynamic change.
+
+In summary, FlowableFlowAppOptions acts as a versatile data object that not only defines the expected structure for the Flow App's configuration but also serves as the core payload that is passed as props, updated via RxJS emissions, and maintained in the component's state using React's useState.
+
+Reardint its content, FlowableFlowAppOptions is a type that configures the view settings for a Flowable flow application. It combines two sets of properties: one from FlowableCustomViewOptions and another from FlowableFlowAppProps.
+
+From FlowableCustomViewOptions, it includes optional booleans such as:
+&#8226; showUserProfile &#8211; determines if the user profile should be displayed.
+&#8226; showLogin &#8211; indicates if a login option should be available.
+&#8226; disableRouting &#8211; controls whether internal routing is enabled.
+
+From FlowableFlowAppProps, it adds:
+&#8226; flowAppId &#8211; an optional string used as the identifier for the flow application,
+&#8226; and it also inherits properties from FlowableCustomViewProps, including:
+  &#9702; fullScreen &#8211; specifies if the view should occupy the full screen.
+  &#9702; hideNavigationElements &#8211; toggles the display of navigation controls.
+  &#9702; hideLogo &#8211; controls whether a logo is shown.
+  &#9702; container &#8211; defines a custom container element.
+  &#9702; urlParameter &#8211; provides a parameter for URL configuration.
+  &#9702; topNavigationBar &#8211; indicates if a top navigation bar is included.
+  &#9702; showTopNavigationElements &#8211; determines if top navigation elements should be visible.
+
+Overall, FlowableFlowAppOptions enables detailed configuration of both the functionality (like routing and authentication visibility) and the presentation aspects of the flow application view. &#57856;cite&#57858;turn0file0&#57857;</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-ceb08dacbc7846a697cbd485b1a57dd2">
+																	<td><a href="../views/id-ceb08dacbc7846a697cbd485b1a57dd2.html" target="view" title="3.1.1.1 Flowable Work-Views"> 3.1.1.1 Flowable Work-Views </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-8996b86e0b8b4c4da4c026920c04fc9b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-42e84e1dd0b24631879ff8a788875802.html" target="element"> FlowableFlowAppOptions</a></td>
+											<td><a href="../elements/id-b5f17bc05d6f4126b5a838d066db4b4c.html" target="element"> </a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-4280415f97c44d749b9afaec9e075b5d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-04b80772646b4a3b88020f1cf8d8e7f3.html" target="element"> updateSubject</a></td>
+											<td><a href="../elements/id-42e84e1dd0b24631879ff8a788875802.html" target="element"> FlowableFlowAppOptions</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7ade1d30351c4a71ae51971d51b9a737.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-49c9180b7f364370beeddc66d3025e3f.html" target="element"> typings.d.ts</a></td>
+											<td><a href="../elements/id-42e84e1dd0b24631879ff8a788875802.html" target="element"> FlowableFlowAppOptions</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

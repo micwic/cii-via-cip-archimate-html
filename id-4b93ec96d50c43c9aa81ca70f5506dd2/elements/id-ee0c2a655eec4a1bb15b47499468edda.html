@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Cursor IDE - Executing Scripts</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Cursor IDE - Executing Scripts</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationProcess"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationProcess" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-88eaa5d0f7dc46bdba9019f9644a64d2">
+																	<td><a href="../views/id-88eaa5d0f7dc46bdba9019f9644a64d2.html" target="view" title="Cursor IDE - Application Structure"> Cursor IDE - Application Structure </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-9ec04b3904974ab894fa7c8b0b5cf817">
+																	<td><a href="../views/id-9ec04b3904974ab894fa7c8b0b5cf817.html" target="view" title="Neo4j Build &amp; Run &amp; Use"> Neo4j Build &amp; Run &amp; Use </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-f179c4098aa94853a9c10732b3bcdf5e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-7aee93a91b0a477588ad1c7d73ef0606.html" target="element"> Cursor IDE - Embedded Terminal</a></td>
+											<td><a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-432533fadd654385917f7f51ba62f0b0.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-1a8488163df547a3a3ae95cc6c1a8258.html" target="element"> ARAGL Executing Scripts</a></td>
+											<td><a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-956562d45863456aa1aca52952303d73.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-SpecializationRelationship" /></td>
+											<td><a href="../elements/id-3d6064d37543458691392054d4b86170.html" target="element"> ARAGS Executing Scripts</a></td>
+											<td><a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0c202b0c03974c92a854ab846b76dd5e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-c6c9e575fcea44a2a6ed0bc6a3b8c2a0.html" target="element"> Node.js Runtime Engine</a></td>
+											<td><a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e755477d744c4ee5bc4329d1f6d8db4c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-84b1b83836be4824aa20483a72baadb4.html" target="element"> Neo4j Bolt Protocol Service</a></td>
+											<td><a href="../elements/id-ee0c2a655eec4a1bb15b47499468edda.html" target="element"> Cursor IDE - Executing Scripts</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
